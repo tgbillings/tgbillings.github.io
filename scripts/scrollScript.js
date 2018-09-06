@@ -22,7 +22,6 @@ new ScrollMagic.Scene({
         duration: "100%"
     })
     .setTween("#myWork", {y: "400", ease:Linear.easeNone}) // pins the element for the the scene's duration
-    .addIndicators()
     .addTo(controller); // assign the scene to the controller
 
 new ScrollMagic.Scene({
@@ -31,6 +30,5 @@ new ScrollMagic.Scene({
         duration: "100%"    // the scene should last for a scroll distance of 100px
     })
     .setTween("#aboutMe", {y: "400", ease:Linear.easeNone}) // pins the element for the the scene's duration
-    .addIndicators()
     .addTo(controller); // assign the scene to the controller
 
