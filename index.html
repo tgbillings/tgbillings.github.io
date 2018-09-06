@@ -20,8 +20,6 @@
     <link href="style/workStyle.css" rel = "stylesheet">
     <link href="style/globalStyle.css" rel = "stylesheet">
     <link href="style/sunFollow.css" rel = "stylesheet">
-
-
     <!--scripts-->
 
 
@@ -50,9 +48,14 @@
     <div class="container">
       <div class="row header">
         <div class="col-lg-12">
+          <div id="menu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
           <p class = "welcome"> Teddy Billings </p>
           <p class="intro mt-4 text-uppercase"> 
-            <span class = "links">Work</span>
+            <span class = "links"><a href = "#projects">Work</a></span>
             <span class = "links">About</span>
             <span class = "links">Resume</span>
             <span class = "links">Contact</span>
@@ -65,9 +68,14 @@
     <div class = "sectionTitle" id = "myWork">My<br>Work</div>
 
     <div class = "container" id = "projectsContainer">
-      <div class = "projects">
+      <div id = "projects">
+        <div class = "row" id = "title1">
+          <div class = "col-12">
+            <div style = "font-size: 60px; font-weight: 700; margin-bottom: 0px;"> My Work</div>
+          </div>
+        </div>
         <div class = "row">
-          <div class = "col-md-4">
+          <div class = "col-sm-6 col-md-4">
             <div class = "projectCard leftCard" data-toggle="modal" data-target="#exampleModalCenter">
               <div class = "projectImage">
                 <!--IMG HERE-->
@@ -77,7 +85,7 @@
               <div class = "cardTitle ml-4">World War II Modules </div>
             </div>
           </div>
-          <div class = "col-md-4">
+          <div class = "col-sm-6 col-md-4">
             <div class = "projectCard centerCard">
               <div class = "projectImage">
                 <img src = "images/rlzlogo.png" class = "mx-auto" width = "400px" style = "display: block; margin-top: 30px;">
@@ -86,7 +94,7 @@
               <div class = "cardTitle ml-4">Pearson Realize</div>
             </div>
           </div>
-          <div class = "col-md-4">
+          <div class = "col-sm-6 col-md-4">
             <div class = "projectCard rightCard">
               <div class = "projectImage">
                 <img src = "images/checkinlogo.png" class = "mx-auto" width = "140px" style = "display: block; margin-top: 20px;">
@@ -95,12 +103,8 @@
               <div class = "cardTitle ml-4">Check In </div>
             </div>
           </div>
-        </div>
 
-        <!--ROW 2-->
-
-        <div class = "row mt-5">
-          <div class = "col-md-4">
+          <div class = "col-sm-6 col-md-4">
             <div class = "projectCard leftCard">
               <div class = "projectImage">
                 <!--IMG HERE-->
@@ -109,7 +113,7 @@
               <div class = "cardTitle ml-4">Downstream</div>
             </div>
           </div>
-          <div class = "col-md-4">
+          <div class = "col-sm-6 col-md-4">
             <div class = "projectCard centerCard">
               <div class = "projectImage">
                 <!--IMG HERE-->
@@ -118,7 +122,7 @@
               <div class = "cardTitle ml-4">NavGator</div>
             </div>
           </div>
-          <div class = "col-md-4">
+          <div class = "col-sm-6 col-md-4">
             <div class = "projectCard rightCard">
               <div class = "projectImage">
                 <!--IMG HERE-->
@@ -166,11 +170,16 @@
     <script src = "scripts/cloudloop.js"></script>
 
     <script src="scripts/scrollScript.js"></script>
-    <!--<script src="scripts/follow.js"></script>-->
+    <script src="scripts/smoothscroll.js"></script>
     <script src="scripts/mousepos.js"></script>
 
     <script>
       //adjust the margin-left of the title
+
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+
       $("#myWork").css('marginLeft', "" + (parseInt($("#projectsContainer").css('marginLeft')))-parseInt($("#myWork").css('width')) + "px");
       $(window).on('resize', function(){
 
