@@ -9,7 +9,6 @@
 .intro{
 	font-size: 16px;
 	font-weight: 700;
-	color: #7142f4;
 }
 .links{
 	margin-right: 28px;
@@ -18,7 +17,7 @@
   	transition: 0.2s;
 }
 .links:hover{
-	color: #360EA4;
+	color: #7142f4;
 	text-decoration: none;
 }
 .links:before{
@@ -29,7 +28,7 @@
   top: 20px;
   bottom: 0;
   left: 0;
-  background-color: #360EA4;
+  background-color: #7142f4;
   visibility: hidden;
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;

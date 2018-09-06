@@ -13,12 +13,12 @@ body{
 	font-size: 14px;
 }
 a{
-	color: #7142f4;
 	text-decoration: none;
+	color: #222222;
 }
 a:hover{
 	text-decoration: none;
-	color: #360EA4;
+	color: #7142f4;
 }
 .sectionTitle{
 	font-size: 60px;
