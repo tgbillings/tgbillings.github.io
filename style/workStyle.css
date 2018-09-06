@@ -17,7 +17,7 @@
   	transition: 0.2s;
 }
 .links:hover{
-	color: #009AE8;
+	color: #7142f4;
 }
 .links:before{
   content: "";
@@ -27,7 +27,7 @@
   top: 20px;
   bottom: 0;
   left: 0;
-  background-color: #009AE8;
+  background-color: #7142f4;
   visibility: hidden;
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
@@ -117,7 +117,7 @@
 .cardsubTitle{
 	font-size: 12px;
 	font-weight: 700;
-	opacity: .5;
+	color: #7142f4;
 	margin-top: 22px;
 }
 .projects{
