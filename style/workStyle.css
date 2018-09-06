@@ -1,0 +1,186 @@
+.welcome{
+	font-size: 46px;
+	font-weight: 100;
+	margin-top: 90px;
+}
+.navbar{
+	background-color: #F6F6F6;
+}
+.intro{
+	font-size: 16px;
+	font-weight: 700;
+}
+.links{
+	margin-right: 28px;
+	position: relative;
+  	text-decoration: none;
+  	transition: 0.2s;
+}
+.links:hover{
+	color: #009AE8;
+}
+.links:before{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  background-color: #009AE8;
+  visibility: hidden;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+.links:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+#cloud1 {
+	position:absolute;
+	z-index:0;
+	right:-300px;
+	top:50px;
+	opacity: .4;
+}
+#cloud2 {
+	position:absolute;
+	z-index:0;
+	right:-300px;
+	top:100px;
+	opacity: .6;
+}
+
+#cloud3{
+	position:absolute;
+	z-index:0;
+	right:-300px;
+	top: 30px;
+	opacity: .6;
+}
+
+#cloud4{
+	position: absolute;
+	z-index: 0;
+	right: 200px;
+	top: 150px;
+	opacity: .4;
+}
+
+.parallax-window{
+	min-height: 300px;
+	background: transparent;
+}
+.header{
+	height: 550px;
+	z-index: 4;
+	position: relative;
+}
+.layers{
+	background-repeat: repeat-x;
+	background-size: contain;
+	height: 400px;
+	position: absolute;
+	width: 100%;
+	background-position: bottom center;
+}
+.cityBackground{
+	background-color: white;
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	clip: rect(0, auto, auto, 0);
+	clip-path: inset(0px 0px 0px 0px);
+}
+
+#layer1{
+	background-image: url("../images/l1.png");
+	bottom: 0;
+	z-index: 3;
+}
+#layer2{
+	background-image: url("../images/l2.png");
+	bottom: 20px;
+	z-index: 2;
+}
+#layer3{
+	background-image: url("../images/l3.png");
+	bottom: 60px;
+	z-index: 1;
+}
+.cardTitle{
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 4px;
+}
+.cardsubTitle{
+	font-size: 12px;
+	font-weight: 700;
+	opacity: .5;
+	margin-top: 22px;
+}
+.projects{
+	height: 1000px;
+	z-index: 10;
+	position: relative;
+}
+#background{
+	width: 100%;
+  	background: white;
+  	background: -moz-linear-gradient(white 0%, #F6F6F6 10%);
+  	background: -webkit-linear-gradient(white 0%, #F6F6F6 10%);
+  	background: linear-gradient(white 0%, #F6F6F6 10%);
+}
+.projectImage{
+	background-color: white;
+	width: 100%;
+	overflow: hidden;
+	height: 300px;
+	/*border-bottom: 1px solid rgba(0, 0, 0, .1);*/
+}
+.projectCard{
+	box-shadow: 0px 3px 10px rgba(0, 20, 20, 0.1);
+	overflow:hidden;
+	background-color: white;
+	height: 400px; 
+	width: 280px; 
+	border-radius: 8px;
+	margin-top: 20px;
+	transition: .2s ease-in-out;
+}
+.projectCard:hover{
+	box-shadow: 0px 20px 30px rgba(0, 20, 20, 0.2);
+}
+.leftCard{
+	margin-right: auto;
+
+}
+.rightCard{
+	margin-left: auto;
+
+}
+.centerCard{
+	margin-left: auto;
+	margin-right: auto;
+}
+#face{
+	transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+}
+@media only screen and (max-width: 767px) {
+    .leftCard {
+        margin-left: auto;
+		margin-right: auto;
+    }
+    .rightCard {
+    	margin-left: auto;
+		margin-right: auto;
+    }
+    .centerCard {
+    	margin-left: auto;
+		margin-right: auto;
+    }
+}

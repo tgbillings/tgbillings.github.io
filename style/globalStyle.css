@@ -1,0 +1,25 @@
+body{
+	color: #606972;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px; /* or 950px */
+}
+.navbar{
+	color: black;
+	font-weight: 700;
+	font-size: 14px;
+}
+a{
+	color: #606972;
+}
+.sectionTitle{
+	font-size: 60px;
+	font-weight: 700;
+	opacity: .5;
+	text-align: right;
+	float: left;
+	padding: 20px;
+}
