@@ -20,6 +20,20 @@ a:hover{
 	text-decoration: none;
 	color: #7142f4;
 }
+.button1{
+    height: 40px; padding-left: 20px; padding-right: 20px; background-color: #7142f4; position: absolute; top: 50%; right: 0; margin-top: -20px; text-align: center; line-height: 42px; border-radius: 4px; color: white;
+    transition: all .2s ease-in-out;
+}
+.button1:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.button2{
+    height: 40px; padding-left: 20px; font-size: 18px; font-weight: 500; padding-right: 20px; color: #7142f4; background-color: white; position: absolute; top: 50%; right: 0; margin-top: -20px; text-align: center; line-height: 42px; border-radius: 4px; border: 1px #dddddd solid;
+    transition: all .2s ease-in-out;
+}
+.button2:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
 .sectionTitle{
 	font-size: 60px;
 	font-weight: 700;
@@ -27,9 +41,15 @@ a:hover{
 	float: left;
     z-index: 100;
 	padding: 20px;
+    opacity: 1;
     position: relative;
 }
-
+#resumeContainer{
+    padding-top:100px;
+}
+#backgroundContainer{
+    margin-top: 100px;
+}
 #menu {
     display: none;
     cursor: pointer;

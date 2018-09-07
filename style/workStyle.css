@@ -157,6 +157,7 @@
 
 .titlesmall{
 	display: none;
+	font-size: 60px; font-weight: 700; margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 820px){
