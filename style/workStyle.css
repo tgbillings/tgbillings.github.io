@@ -35,36 +35,7 @@
   visibility: visible;
   width: 100%;
 }
-#cloud1 {
-	position:absolute;
-	z-index:0;
-	right:-300px;
-	top:50px;
-	opacity: .4;
-}
-#cloud2 {
-	position:absolute;
-	z-index:0;
-	right:-300px;
-	top:100px;
-	opacity: .6;
-}
 
-#cloud3{
-	position:absolute;
-	z-index:0;
-	right:-300px;
-	top: 30px;
-	opacity: .6;
-}
-
-#cloud4{
-	position: absolute;
-	z-index: 0;
-	right: 200px;
-	top: 150px;
-	opacity: .4;
-}
 
 .parallax-window{
 	min-height: 300px;
@@ -218,6 +189,7 @@
     }
     #menu{
     	display: block;
+    	z-index: 20;
     }
     .titlesmall{
     	text-align: center;

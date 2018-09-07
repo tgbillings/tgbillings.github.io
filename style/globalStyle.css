@@ -35,7 +35,6 @@ a:hover{
     cursor: pointer;
     padding: 20px;
     position: fixed;
-    z-index: 9999;
 }
 .bar1, .bar2, .bar3 {
     width: 35px;
@@ -43,6 +42,8 @@ a:hover{
     background-color: #7142f4;
     margin: 6px 0;
     transition: 0.4s;
+    position: relative;
+    z-index: 20;
 }
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
