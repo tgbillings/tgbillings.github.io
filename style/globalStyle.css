@@ -75,6 +75,23 @@ a:hover{
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.sectionHeader{
+    display: inline-block;
+    position: relative;
+    font-size: 36px; 
+    padding-top: 36px;
+}
+.titleDecorator{font-size: 88px; letter-spacing: 2px; opacity: .05; position: absolute; top: 0; left: 0;}
+
+.myTitle::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    bottom: 0;
+    right: 0;
+    border-bottom: 6px solid #7142f4;
+}
+
 #footer{
     display: none;
 }

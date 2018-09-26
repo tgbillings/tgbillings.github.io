@@ -166,14 +166,14 @@
 	}
 }
 
-@media only screen and (max-width: 1366px) {
-    .titlesmall{
+/*@media only screen and (max-width: 1366px) {*/
+.titlesmall{
     	display: block;
     }
-    .sectionTitle{
+.sectionTitle{
     	display: none;
     }
-}
+
 
 @media only screen and (max-width: 868px) and (min-width: 768px) {
 	.projectCard{
