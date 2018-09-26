@@ -1,6 +1,7 @@
 body{
 	color: #222222;
 	font-family: 'Josefin Sans', sans-serif;
+    background-color: #F6F6F6;
 }
 .container{
   margin-right: auto;
@@ -45,11 +46,9 @@ a:hover{
     position: relative;
 }
 #resumeContainer{
-    padding-top:100px;
+    position: relative;
 }
-#backgroundContainer{
-    margin-top: 100px;
-}
+
 #menu {
     display: none;
     cursor: pointer;
@@ -100,6 +99,15 @@ a:hover{
     #footer{
     	display: block;
     	z-index: 999;
+    }
+    .myTitle::after{
+        display: none;
+    }
+    .titleDecorator{
+        display: none;
+    }
+    .sectionHeader{
+        padding-top: 0px;
     }
 }
 

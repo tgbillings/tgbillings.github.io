@@ -96,10 +96,9 @@
 }
 #background{
 	width: 100%;
-  	background: white;
-  	/*background: -moz-linear-gradient(white 0%,  10%);
-  	background: -webkit-linear-gradient(white 0%, #F6F6F6 10%);
-  	background: linear-gradient(white 0%, #F6F6F6 10%);*/
+  	background: -moz-linear-gradient(white 0%,  30%);
+  	background: -webkit-linear-gradient(white 0%, 30%);
+  	background: linear-gradient(white 0%, #F6F6F6 30%);
 }
 .projectImage{
 	background-color: white;
