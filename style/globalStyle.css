@@ -80,7 +80,7 @@ a:hover{
     font-size: 36px; 
     padding-top: 36px;
 }
-.titleDecorator{font-size: 88px; letter-spacing: 2px; opacity: .05; position: absolute; top: 0; left: 0;}
+.titleDecorator{font-size: 88px; letter-spacing: 2px; opacity: .05; position: absolute; top: -40px; left: 0;}
 
 .myTitle::after{
     content: "";
