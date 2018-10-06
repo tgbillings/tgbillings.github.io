@@ -21,7 +21,7 @@ new ScrollMagic.Scene({
         triggerHook: "1",
         duration: "110%"    // the scene should last for a scroll distance of 100px
     })
-    .setTween("#myWorkTitle", {y: "80", ease:Linear.easeNone}) // pins the element for the the scene's duration
+    .setTween("#myWorkTitle", {y: "100", ease:Linear.easeNone}) // pins the element for the the scene's duration
     .addTo(controller); // assign the scene to the controller
 
 new ScrollMagic.Scene({
@@ -29,7 +29,7 @@ new ScrollMagic.Scene({
         triggerHook: "1",
         duration: "110%"    // the scene should last for a scroll distance of 100px
     })
-    .setTween("#aboutTitle", {y: "80", ease:Linear.easeNone}) // pins the element for the the scene's duration
+    .setTween("#aboutTitle", {y: "100", ease:Linear.easeNone}) // pins the element for the the scene's duration
     .addTo(controller); // assign the scene to the controller
 
 
@@ -38,7 +38,7 @@ new ScrollMagic.Scene({
         triggerHook: "1",
         duration: "110%"    // the scene should last for a scroll distance of 100px
     })
-    .setTween("#resumeTitle", {y: "80", ease:Linear.easeNone}) // pins the element for the the scene's duration
+    .setTween("#resumeTitle", {y: "100", ease:Linear.easeNone}) // pins the element for the the scene's duration
     .addTo(controller); // assign the scene to the controller
 
 
