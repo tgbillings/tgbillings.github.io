@@ -1,8 +1,4 @@
-body{
-	color: #222222;
-	font-family: 'Josefin Sans', sans-serif;
-    background-color: #F6F6F6;
-}
+
 .container{
   margin-right: auto;
   margin-left: auto;
@@ -105,23 +101,24 @@ a:hover{
     float: right;
 }
 
-.carousel-indicators li{
-    background-color: rgba( 0, 0, 0, 0.5);
+.carousel-inner{
+    text-align: left;
+    display: block;
+}
+.carousel-img{
+    display: inline-block;
+    height: 400px;
+    width: 50%;
+    background-image: url('https://dummyimage.com/350x400/000/fff');
+}
+.carousel-inner-left{
+    vertical-align: top;
+    display: inline-block; 
+    width: 350px; 
+    padding-left: 16px; 
+    padding-top: 16px;
 }
 
-.carousel-indicators .active{
-    background-color: rgba( 0, 0, 0, 1);
-}
-.carousel-item{
-    width: 100%;
-    height: 300px;
-}
-.carousel-item-inner{
-    box-shadow: 0px 4px 10px 0px rgba( 0, 0, 0, 0.2);
-    width: 90%;
-    border-radius: 8px;
-    height: 280px;
-}
 
 .projectPageTitle{
     font-size: 30px;
@@ -132,7 +129,7 @@ a:hover{
 }
 
 .textWidth{
-    max-width: 800px;
+    max-width: 700px;
     font-size: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -140,28 +137,26 @@ a:hover{
 .floater{
     border-radius: 8px;
     box-shadow: 0 4px 10px 0 rgba(0, 0,  0, 0.3);
-    max-width: 800px;
+    max-width: 700px;
 }
-th, td {
+.rightInfo th, td {
     padding: 8px;
 }
-td{
+.rightInfo td{
     font-weight: 300;
 
 }
-th {
+.rightInfo th {
     text-align: right;
     font-weight: 700;
 }
-tr{
-    border-color: blue;
-}
+
 
 .pageSectionTitle{
     font-size: 32px;
     font-weight: 700;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 #footer{
     display: none;

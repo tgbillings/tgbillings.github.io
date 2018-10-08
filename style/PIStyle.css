@@ -10,3 +10,45 @@
   transform: skewY(8deg);
   transform-origin: top right;
 }
+body{
+  color: #222222;
+  font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+}
+
+th{
+  text-align: left;
+}
+.PIUsability th{
+  text-align: right;
+  padding: 10px;
+  width: 200px;
+}
+.PIUsability td{
+  width: 200px;
+  padding-left: 90px;
+}
+.PIUsability tr{
+}
+.titleRow th{
+  text-align: left;
+  width: 200px;
+  padding-left: 90px;
+}
+.PIKeyFindings td{
+  vertical-align: top;
+}
+.PIKeyFindings th{
+  color: #026ECB;
+  vertical-align: top;
+  padding: 8px;
+  vertical-align: none;
+}
+.PIBackgroundResearch th{
+  color: #026ECB;
+  vertical-align: top;
+  padding: 8px;
+}
+.PIBackgroundResearch td{
+  vertical-align: top;
+}
