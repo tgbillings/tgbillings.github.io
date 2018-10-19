@@ -121,7 +121,7 @@ a:hover{
 }
 
 .projectPageTitle{
-    font-size: 68px;
+    font-size: 50px;
     color: white;
     font-weight: 500;
     text-align: center;
@@ -133,8 +133,6 @@ a:hover{
 .textWidth{
     max-width: 700px;
     font-size: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
 }
 .floater{
     border-radius: 8px;
@@ -155,11 +153,12 @@ a:hover{
 
 
 .pageSectionTitle{
-    font-size: 32px;
-    font-weight: 700;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
+
 #footer{
     display: none;
 }

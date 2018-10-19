@@ -21,6 +21,7 @@
     <!--CSS Links-->
     <link href="style/PIStyle.css" rel = "stylesheet">
     <link href="style/globalStyle.css" rel = "stylesheet">
+    <link href = "style/imageModals.css" rel = "stylesheet">
     <!--scripts-->
 
   </head>
@@ -52,12 +53,8 @@
         </div>
       </div>
       <div class = "row pt-4">
-        <div class = "col-3"></div>
-        <div class = "col-6">
-          <img src = "images/PIHeaderImage.png" width = "537px" class = "mx-auto" style = "display:block; box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);">
-        </div>
-        <div class = "col-3">
-
+        <div class = "col justify-content-center">
+          <img src = "images/PIHeaderImage.png" class = "mx-auto img-fluid" style = "max-width: 537px; display:block; box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);">
         </div>
       </div>
     </div>
@@ -67,7 +64,7 @@
 
 
       <!-- Project Overview -->
-      <div class = "row py-5">
+      <div class = "row pt-5">
         <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
@@ -77,7 +74,7 @@
             <tr><th style = "width: 80px;">Role</th><td>Lead UX Designer</td></tr>
             <tr><th>Dates</th><td>August 2017 to July 2018</td></tr>
             <tr><th>Tools</th><td>Axure, Sketch, HTML/CSS/JS</td></tr>
-            <tr><th valign = "top" style = "padding-top: 8px;">Team</th><td>Celi Pedrosa (Visual Designer), Abby Lewis (Instructional Designer), Research Team, Editors, AllenComm (Development Vendor)</td></tr>
+            <tr><th valign = "top" style = "padding-top: 8px;">Team</th><td>Visual Designer, Instructional Designer, Research Team, Editors, Development Vendor</td></tr>
           </table>
             Project Imagine is a Product for High School Social Studies Teachers and Students. There are 6 different templates we created for Project Imagine, which use primary sources (first person accounts of history) and learning activities to engage in with the primary source. Teachers can assign Project Imagine parts to students and assess their answers. All of these templates are authorable, meaning that (Pearson) editors can put in different content to fit content. This is a high level overview of the entire project, and does not include many specific design details because of NDA's.
           </div>
@@ -86,21 +83,21 @@
 
 
       <!-- Background Research -->
-      <div class = "row pt-5">
+      <div class = "row">
         <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
             Background Research
           </div>
             A challenge Social Studies Teachers are facing is re-developing their course structure to fit changes in state curriculum. There is a new standard called the C3 Framework that many school districts have switched to. We need to make sure our new product’s learning objectives will fit the curriculum in addition to consider was how this product will help teachers transition from their former curriculum to their newer curriculum.
-                        <br><br> Additionally, the research team was able to provide some key insight: 
+            <br><br> Additionally, the research team was able to provide some key insight: 
           </div>
         </div>
       </div>
-      <div class = "row pb-5 mt-2">
+      <div class = "row" style = "margin-top: 24px; margin-bottom: 24px;">
         <div class = "col">
           <div class = "floater mx-auto">
-              <table class = "PIBackgroundResearch" style = "padding: 16px; display: block;">
+              <table class = "PIBackgroundResearch" style = "padding: 8px; display: block;">
                 <tr>
                   <th>1</th>
                   <td>Traditional lecture style classrooms in high school are decreasing in favor of mixing lecture with active learning</td>
@@ -124,7 +121,7 @@
 
 
       <!-- Product Goals Learning Objectives -->
-      <div class = "row pt-5">
+      <div class = "row">
           <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
@@ -135,9 +132,12 @@
         </div>
       </div>
       <div class = "row">
-        <img src = "images/PIUserJourney.png" class = "mx-auto py-2" style = "display:block; padding: 20px;">
+        <div class = "col">
+        <img src = "images/PIUserJourney.png" id = "myImg" class = "needsModal mx-auto img-fluid" width = "700px" style = "display:block; padding: 20px;">
+
+        </div>
       </div>
-      <div class = "row pb-5">
+      <div class = "row">
         <div class = "textWidth mx-auto">
             From the user journey, we defined some of the Product requirements. This product allows students to analyze primary sources and connect them to their own experiences. We want empathy to encourage critical thinking for the students, and to engage them by trying to apply the primary source to something relatable. Empathy is one of the keys in fitting in with the learning objective while still allowing students to be excited about the content. We also needed to make sure that this product was adaptable to the lesson plan of the teachers. 
         </div>
@@ -145,7 +145,7 @@
 
 
       <!-- Competative Insights -->
-      <div class = "row pt-5">
+      <div class = "row">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
             Competitive Insights
@@ -154,7 +154,7 @@
           </div>
 
       </div>
-      <div class = "row pb-5">
+      <div class = "row" style = "margin-top: 24px; margin-bottom: 24px;">
           <div class = "col" style = "text-align: center;">
             <div class = "mx-auto" style = "display: flex; align-items: center; justify-content: center;">
               <span class="prev3"><i class="fas fa-angle-left" style = "color: black; font-size: 40px; padding: 16px; display: inline-block;"></i></span>
@@ -178,7 +178,7 @@
 
 
       <!-- Information Architectures -->
-      <div class = "row pt-5">
+      <div class = "row">
           <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
@@ -188,15 +188,15 @@
           </div>
         </div>
       </div>
-      <div class = "row pb-5">
-        <img src = "images/PIIA.png" width = "816px" height = "450px" class = "mx-auto" style = "display:block; padding: 20px;">
+      <div class = "row">
+        <img src = "images/PIIA.png" width = "816px" height = "450px" class = "needsModal mx-auto" style = "display:block; padding: 20px;">
       </div>
 
 
 
 
       <!-- Low Fidelity Iterations -->
-      <div class = "row pt-5">
+      <div class = "row">
           <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
@@ -206,13 +206,13 @@
           </div>
         </div>
       </div>
-      <div class = "row pb-5">
-        <img src = "images/PIWires.png" class = "mx-auto" style = "display:block; padding: 10px;">
+      <div class = "row">
+        <img src = "images/PIWires.png" class = "mx-auto needsModal" style = "display:block; padding: 10px;">
       </div>
 
 
       <!-- Validation -->
-       <div class = "row pt-5">
+       <div class = "row" style = "margin-top: 24px; margin-bottom: 24px;">
         <div class = "col">
           
           <div class = "textWidth mx-auto">
@@ -230,7 +230,7 @@
             </div>
           </div>
       </div>
-      <div class = "row pb-5">
+      <div class = "row">
         <div class = "col floater mx-auto">
             <table class = "PIUsability" style = "width: 100%; margin-top: 10px; margin-bottom: 8px; border-bottom: 1px solid #CACACA; padding-bottom: 8px;">
               <tr class = "titleRow">
@@ -294,7 +294,7 @@
 
 
       <!-- Mid to High Fidelity -->
-      <div class = "row pt-5">
+      <div class = "row">
         <div class = "col">
           
           <div class = "textWidth mx-auto">
@@ -312,12 +312,12 @@
           <div class = "mx-auto" style = "display: flex; align-items: center; justify-content: center;">
             <span class="prev"><i class="fas fa-angle-left" style = "color: black; font-size: 40px; display: inline-block; padding: 16px;"></i></span>
             <div class="siema floater" style = "width: 700px; display: inline-block;">
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto" src="images/ss1.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto" src="images/ss2.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto" src="images/ss3.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto" src="images/ss4.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto" src="images/ss5.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto" src="images/ss6.png"></div>
+                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss1.png"></div>
+                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss2.png"></div>
+                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss3.png"></div>
+                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss4.png"></div>
+                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss5.png"></div>
+                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss6.png"></div>
               </div>
               <span class="next" style = "display: inline-block; height: 100%;"><i class="fas fa-angle-right" style = "color: black; font-size: 40px; padding: 16px;"></i></span>
           </div>
@@ -342,7 +342,7 @@
           </div>
       </div>
       </div>
-      <div class = "row pb-5">
+      <div class = "row">
         <div class = "col py-3 mx-auto" style = " max-width: 700px; font-size: 14px; color: grey;">
           <b> High Fidelity Prototype </b> Made in Sketch and Photoshop (my main role was support). Only limited shown due to NDA.
         </div>
@@ -350,7 +350,7 @@
 
 
       <!-- Second Round Validation -->
-        <div class = "row pt-5">
+        <div class = "row">
           <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
@@ -361,7 +361,7 @@
         </div>
       </div>
 
-      <div class = "row pb-5">
+      <div class = "row">
         <div class = "col">
           <div class = "floater mx-auto" style = "padding: 16px;">
             <div>
@@ -384,7 +384,7 @@
         </div>
       </div>
 
-        <div class = "row pt-5">
+        <div class = "row">
           <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
@@ -398,7 +398,7 @@
       <div class = "row"><div class = "col d-flex justify-content-center"><img class = "PIFinalShadow" src = "images/pifinal2.png"><img class = "PIFinalShadow" src = "images/pifinal3.png"></div></div>
       <div class = "row"><div class = "col d-flex justify-content-center"><img class = "PIFinalShadow"src = "images/pifinal4.png"><img class = "PIFinalShadow" src = "images/pifinal5.png"></div></div>
 
-      <div class = "row pt-5">
+      <div class = "row">
           <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
@@ -409,14 +409,27 @@
         </div>
       </div>
 
+                      <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- The Close Button -->
+          <span class="close"><i class="fas fa-times"></i></span>
+
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
+
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption"></div>
+        </div>
+
     </div>
 
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="scripts/siema-1.5.1/dist/siema.min.js"></script>
+    <script src = "scripts/modal.js"></script>
     <script>
-
       const Siema1 = new Siema({selector: '.siema', loop: true});
         document.querySelector('.prev').addEventListener('click', () => Siema1.prev());
         document.querySelector('.next').addEventListener('click', () => Siema1.next());
@@ -428,6 +441,7 @@
       const Siema3 = new Siema({selector: '.siema3', loop: true});
         document.querySelector('.prev3').addEventListener('click', () => Siema3.prev());
         document.querySelector('.next3').addEventListener('click', () => Siema3.next());
+
       </script>
 
    
