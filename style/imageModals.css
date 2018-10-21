@@ -60,11 +60,13 @@
     color: white;
     font-size: 40px;
     transition: 0.3s;
+    text-shadow: none !important;
 }
 
 .close:hover,
 .close:focus {
-    color: purple;
+    opacity: 1;
+    color: white !important;
     text-decoration: none;
     cursor: pointer;
 }

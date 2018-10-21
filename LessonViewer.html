@@ -69,7 +69,7 @@
           <div class = "pageSectionTitle">
             Project Overview
           </div>
-            Realize is a learning management system. It is the platform that all pearson products live on. Students can go there for their assigned pearson homework, and teachers can create assignments, give grades and host discussions using pearson products, among many other features. 
+            Realize is a learning management system. It is the platform that contains all of Pearson’s digital products. Teachers can assign work to students, grade their assignments, host discussions and access their lesson plans in Realize. Subsequently, students go to realize to complete, and submit their assigned work for the teacher to grade.  
           </div>
         </div>
     </div>
@@ -80,7 +80,7 @@
           <div class = "pageSectionTitle">
             Background Research
           </div>
-            Based on Qualitative Research from Google Analytics, only <b>6% of our Students turn in their assignments </b>. Additionally, we lost out on a large adoption sale because realize was <b>“not a robust process for the student.”</b> The expected problem is that the student experience for completing an assignment is complicated, students can often miss parts of their assignment, turn in the assignment without it being completed, not turn in their assignment entirely. <br><br> <b>Students need an easy way to work through, and turn in their assignments on Realize. </b>
+            Based on Quantitative Research from Google Analytics, <b>only 6% of our Students turn in their assignments</b>. Additionally, we lost out on a large adoption sale because <b>realize was “not a robust process for the student.”</b> The current problem is that the student turn-in workflow in realize is very complicated. Students often miss parts of their assignment, students can easily submit an incomplete assignment, and submitting an assignment can often be hidden so students miss submission entirely. <br><br> <b>Students need an easy way to work through, and turn in their assignments on Realize. </b>
 
           </div>
         </div>
@@ -91,7 +91,7 @@
   </div>
 
   <div class = "container-container" style = "position: relative;">
-    <div class = "container-background" style = "z-index: -10; position: absolute; display: inline-block; height: 100%; background-color: #F7F7F7; width: 100%; transform: skewY(6deg);"></div>
+    <div class = "container-background" style = "z-index: -10; position: absolute; display: inline-block; height: 100%; background-color: #F6F6F6; width: 100%; transform: skewY(8deg);"></div>
     <div class = "container-fluid">
         <div class = "row">
         <div class = "col">
@@ -99,16 +99,24 @@
           <div class = "pageSectionTitle">
             User Workflow
           </div>
-            The current workflow has the student going to each part of the assignment, then exiting it, and then re-entering it again. To submit the assignment, the student must exit that specific part of the assignment, and submit the entire thing. <br><br>The first solution was changing the flow so that students do not need to exit assignment viewer to look at a different part of the assignment.  
+            The current workflow has the student going to each part of the assignment on a new page. They then have to press an exit button to re enter the next part of the assignment. To submit the assignment, the student has to scroll all the way back to the top of the “full assignment” screen and press the turn in button. <br><br>The first solution that we came up with was changing the flow so that students do not need to exit assignment viewer to look at a different part of the assignment.
+  
 
           </div>
         </div>
     </div>
+    <div class = "row pt-5">
+        <div class = "col">
+          <img src = "images/currentassignmentflow.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;">
+        </div>
+      </div>
+      <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>Wireframes of the current assignment viewer</i></div></div></div>
       <div class = "row pt-5">
         <div class = "col">
           <img src = "images/SLVWorkflow1.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;">
         </div>
       </div>
+      <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>Current and Proposed Workflows</i></div></div></div>
 
 
     </div>
@@ -124,7 +132,7 @@
           <div class = "pageSectionTitle">
             Wireframes and Usability Testing
           </div>
-            To validate that our designs were usable, we wanted to test the solution. We created wireframes for a usability test. While the metric used to indicate the problem was Quantitative, we were limited in timeframe and budget for testing. Ideally, I would have liked to use Quantitative data in addition to Qualitative. I created 2 different prototypes. One solution has a long vertical scroll, the other solution has tabs. Both solutions are more robust than the current designs. To test this, we used a task based A/B usability test on (5) Teachers and (6) Students in the Hoboken Area switching off the first prototype we showed to account for bias. We asked them the following tasks
+            To validate that our designs, we wanted to test the solution. I created wireframes for usability and AB testing. While the metric used to indicate the problem was quantitative, we were limited in timeframe and budget. Ideally, I would have liked to use quantitative data in addition to qualitative to get a more accurate comparison. I created 2 different prototypes. One solution has a long vertical scroll, the other solution has tabs. Both solutions are more robust than the current designs. To test this, we used a task based A/B usability test on (5) Teachers and (6) Students in the Hoboken Area switching off the first prototype we showed to account for bias. We asked them the following tasks:
 
 
           </div>
@@ -132,11 +140,11 @@
     </div>
     <div class = "row pt-3">
       <div class = "col">
-        <div class = "mx-auto d-block" style = "max-width: 500px">
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">1</div><div style = "display: inline-block">Locate Your English Class</div><br><br>
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">2</div><div style = "display: inline-block">Navigate Through Your Assignment</div><br><br>
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">3</div><div style = "display: inline-block">Finish your Assignment and Submit it to your teacher for a grade</div><br><br>
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">4</div><div style = "display: inline-block">Read the Teacher Comments on the Assignment</div>
+        <div class = "mx-auto d-block floater" style = "max-width: 600px; padding: 16px;">
+          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">1</div><span>Locate Your English Class</span><br><br>
+          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">2</div><span>Navigate Through Your Assignment</span><br><br>
+          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">3</div><span>Finish your Assignment and Submit it to your teacher for a grade</span><br><br>
+          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">4</div><span>Read the Teacher Comments on the Assignment</span>
         </div>
       </div>
     </div>
@@ -144,14 +152,21 @@
     <div class = "row">
       <div class = "col"> <img src = "images/Wireframe1.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div><div class = "col"><img src = "images/Wireframe 2.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div>
     </div>
+    <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>Prototype A on the left (Tab Design) Prototype B on the right (Long Scrolling Design)</i></div></div></div>
 
     <div class = "row pt-4">
       <div class = "col">
-        <div class = "textWidth mx-auto">Below are the results from the Usability Test</div>
+        <div class = "textWidth mx-auto">Below are the results from the Usability Test: </div>
       </div>
     </div>
 
-    <div class = "row pt-4"><div class = "col"> <div class = "floater mx-auto" style = "padding: 16px;" ><img src = "images/table1.png" class = "img-fluid mx-auto d-block" style = "max-width: 500px; width: 100%;"></div></div></div>
+    <div class = "row pt-4"><div class = "col"> <div class = "floater mx-auto" style = "padding: 16px; max-width: 600px;" ><img src = "images/table1.png" class = "img-fluid mx-auto d-block" style = "max-width: 500px; width: 100%;"></div></div></div>
+
+    <div class = "row pt-4">
+      <div class = "col">
+        <div class = "textWidth mx-auto">Prototype A tested better amongst both students and teachers. However, when asked which prototype the students preferred, 4 out of 5 prefered the long scrolling page. Teachers, were split. 3 liked prototype A, and 3 liked prototype B.</div>
+      </div>
+    </div>
 
     <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 54px;"></div>
 
@@ -159,7 +174,7 @@
 
 
     <div class = "container-container" style = "position: relative;">
-    <div class = "container-background" style = "z-index: -10; position: absolute; display: inline-block; height: 100%; background-color: #F7F7F7; width: 100%; transform: skewY(6deg);"></div>
+    <div class = "container-background" style = "z-index: -10; position: absolute; display: inline-block; height: 100%; background-color: #F6F6F6; width: 100%; transform: skewY(8deg);"></div>
     <div class = "container-fluid">
         <div class = "row">
         <div class = "col">
@@ -167,19 +182,44 @@
           <div class = "pageSectionTitle">
             Constraints & Visual Exploration
           </div>
-            Even though Prototype B (long scrolling) tested better, we had to cut back the scope of this feature, so unfortunately we had to go with Prototype A. While prototype B was nice, we would have to restructure tons of content to be able to fit different kinds on screen. However, prototype A tested well enough that we feel that it is still a vast improvement over the original experience. To get a better estimation of the design, we created an updated wireframe. <br><br>We then wanted to explore different visual treatments of this “tab” design. Below are some of the different ways we looked at exploring tabs. <br><br>Based off of a combination of stakeholder feedback, and design heuristics, we decided to go with the white tabs on blue background. Additionally, the tab approach allowed for better readability with color contrast, and allowed us to use colors to have meaning. In a future update, we will use color as a way of allowing the user to know the status of the assignment (blue means the assignment is in progress and green means the assignment is complete). 
+            We then wanted to explore different visual treatments of this “tab” design. Below are some of the different ways we looked at exploring tabs. We looked at Material Design, flat design, and some more traditional approaches.<br><br> Based off of a combination of stakeholder feedback, and design heuristics, we decided to go with the white tabs on blue background (left design). Additionally, the tab approach allowed for better readability with color contrast, and allowed us to use colors to have meaning. In a future update, we will use color as a way of allowing the user to know the status of the assignment (blue means the assignment is in progress and green means the assignment is complete). 
           </div>
         </div>
     </div>
       <div class = "row pt-5">
         <div class = "col"> <img src = "images/Tab1.png" class = "img-fluid mx-auto d-block needsModal" style = "max-width: 400px; width: 100%; " ></div><div class = "col"> <img src = "images/Tab2.png" class = "img-fluid mx-auto d-block needsModal " style = "max-width: 400px; width: 100%;" > </div><div class = "col"> <img src = "images/Tab3.png" class = "needsModal img-fluid mx-auto d-block" style = "max-width: 400px; width: 100%;"></div>
       </div>
+      <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>3 different visual explorations of Student viewer tabs. The White background with blue tabs (left) was what we ended up choosing.</i></div></div></div>
 
 
     </div>
 
     <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 54px;"></div>
   </div>
+
+
+  <div class = "container-fluid">
+
+      <div class = "row">
+        <div class = "col">
+          <div class = "textWidth mx-auto">
+          <div class = "pageSectionTitle">
+            Final Product & Next steps
+          </div>
+            The final product consisted of many different states. Shown below are only a few of these states, but the Assignment viewer is live in Realize today. Currently, Google analytics shows that the turn in rate is around 68%, which is far better than the previous designs. The next step is to validate even further to see how well we solved the problem. Also, there are going to be more features released in relation to the lesson viewer, including Rubrics functionality, teacher-student commenting, and attaching files. These designs were created to be scalable in nature, and the next step is figuring out how the future features of the Assignment viewer will inform the next iteration of design. 
+
+
+          </div>
+        </div>
+    </div>
+    <div class = "row pt-5">
+      <div class = "col">
+        <img class = "mx-auto d-block needsModal" src = "images/AVFinal.png" style = "width: 100%; max-width: 700px">
+      </div>
+    </div>
+  </div>
+
+
                         <!-- The Modal -->
         <div id="myModal" class="modal">
 
