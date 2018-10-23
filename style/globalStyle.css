@@ -93,12 +93,10 @@ a:hover{
 }
 .homeLink{
     font-weight: 900;
-    color: white;
 }
 .navLink{
     padding-left: 10px;
     padding-right: 10px;
-    color: white;
     float: right;
 }
 
@@ -163,6 +161,16 @@ a:hover{
     display: none;
 }
 
+#nav-down{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.04);
+    position: fixed;
+    z-index: 100;
+    opacity: 1;
+    transition: top 0.2s ease-in-out;
+}
+
 @media only screen and (max-width: 576px) {
     #footer{
     	display: block;
@@ -176,6 +184,9 @@ a:hover{
     }
     .sectionHeader{
         padding-top: 0px;
+    }
+    #nav-down{
+        display: none;
     }
 }
 

@@ -28,6 +28,22 @@
 
   <body>
 
+  <header id="nav-down">
+    <div class = "row projectNav">
+        <div class = "col-4 homeLink"><a style = "color: white" href = "index.html">
+          Teddy Billings</a>
+        </div>
+        <div class = "col-8 navLinks"> 
+          <div style = "float: right;">
+          <a class = "navLink" href = "index.html#projects" style = "color: white" >Projects</a>
+          <a class = "navLink" href = "index.html#work" style = "color: white">Work</a>
+          <a class = "navLink" href = "index.html#about" style = "color: white">About</a>
+          <a class = "navLink" href = "index.html#resume" style = "color: white">Resume</a>
+        </div>
+        </div>
+      </div>
+  </header>
+
 
   <!-- Top with Slanted Box -->
   <div id = "header__bg"> </div>
@@ -40,10 +56,10 @@
         </div>
         <div class = "col-8 navLinks"> 
           <div style = "float: right;">
-          <a class = "navLink" href = "index.html#projects">Projects</a>
-          <a class = "navLink" href = "index.html#work">Work</a>
-          <a class = "navLink" href = "index.html#about">About</a>
-          <a class = "navLink" href = "index.html#resume">Resume</a>
+          <a class = "navLink" href = "index.html#projects" style = "color: white">Projects</a>
+          <a class = "navLink" href = "index.html#work" style = "color: white">Work</a>
+          <a class = "navLink" href = "index.html#about" style = "color: white">About</a>
+          <a class = "navLink" href = "index.html#resume" style = "color: white">Resume</a>
         </div>
         </div>
       </div>
@@ -69,10 +85,21 @@
           <div class = "pageSectionTitle">
             Project Overview
           </div>
+          <table class = "mb-2">
+            <tr><th style = "width: 80px;">Role</th><td>UX Designer</td></tr>
+            <tr><th>Dates</th><td>Jan 2018 to June 2018</td></tr>
+            <tr><th>Tools</th><td>Axure, Sketch, HTML/CSS/JS, Google Analytics</td></tr>
+            <tr><th>Responsibilities</th><td>Wireframes, Visual Design, Usability Testing, Quantitative Analysis, Survey</td></tr>
+            <tr><th valign = "top" style = "padding-top: 8px;">Team</th><td>Technical Project Manager, Product Manager, Development Teams, Content Editors, Technical Writer, Research team</td></tr>
+          </table>
             Realize is a learning management system. It is the platform that contains all of Pearson’s digital products. Teachers can assign work to students, grade their assignments, host discussions and access their lesson plans in Realize. Subsequently, students go to realize to complete, and submit their assigned work for the teacher to grade.  
           </div>
         </div>
     </div>
+
+    <div class = "row"><div class = "col"> <div class = "text-width mx-auto">
+      
+    </div></div></div>
     <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 54px;"></div>
     <div class = "row">
         <div class = "col">
@@ -149,8 +176,8 @@
       </div>
     </div>
 
-    <div class = "row">
-      <div class = "col"> <img src = "images/Wireframe1.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div><div class = "col"><img src = "images/Wireframe 2.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div>
+    <div class = "row mx-auto" style = "max-width: 1400px;">
+      <div class = "col-lg-6"> <img src = "images/Wireframe1.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div><div class = "col-lg-6"><img src = "images/Wireframe 2.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div>
     </div>
     <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>Prototype A on the left (Tab Design) Prototype B on the right (Long Scrolling Design)</i></div></div></div>
 
@@ -186,8 +213,7 @@
           </div>
         </div>
     </div>
-      <div class = "row pt-5">
-        <div class = "col"> <img src = "images/Tab1.png" class = "img-fluid mx-auto d-block needsModal" style = "max-width: 400px; width: 100%; " ></div><div class = "col"> <img src = "images/Tab2.png" class = "img-fluid mx-auto d-block needsModal " style = "max-width: 400px; width: 100%;" > </div><div class = "col"> <img src = "images/Tab3.png" class = "needsModal img-fluid mx-auto d-block" style = "max-width: 400px; width: 100%;"></div>
+      <div class = "row pt-5 mx-auto" style = "max-width: 1400px;"> <div class = "col-lg-4"> <img src = "images/Tab1.png" class = "img-fluid needsModal mx-auto d-block" style = "max-width: 400px; width: 100%;"></div><div class = "col-lg-4"> <img src = "images/Tab2.png" class = "img-fluid needsModal mx-auto d-block" style = "max-width: 400px; width: 100%;" > </div><div class = "col-lg-4"> <img src = "images/Tab3.png" class = "needsModal img-fluid mx-auto d-block" style = "max-width: 400px; width: 100%;"></div> 
       </div>
       <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>3 different visual explorations of Student viewer tabs. The White background with blue tabs (left) was what we ended up choosing.</i></div></div></div>
 
@@ -238,6 +264,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="scripts/siema-1.5.1/dist/siema.min.js"></script>
     <script src = "scripts/modal.js"></script>
+    <script src = "scripts/scrollingHeader.js"></script>
   
 
    
