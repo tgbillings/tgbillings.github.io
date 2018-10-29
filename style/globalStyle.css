@@ -104,12 +104,6 @@ a:hover{
     text-align: left;
     display: block;
 }
-.carousel-img{
-    display: inline-block;
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-}
 .carousel-inner-left{
     vertical-align: top;
     display: inline-block; 

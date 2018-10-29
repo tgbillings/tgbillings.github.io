@@ -30,15 +30,15 @@
 
   <header id="nav-down">
     <div class = "row projectNav">
-        <div class = "col-4 homeLink"><a style = "color: white" href = "index.html">
+        <div class = "col-4 homeLink"><a href = "index.html">
           Teddy Billings</a>
         </div>
         <div class = "col-8 navLinks"> 
           <div style = "float: right;">
-          <a class = "navLink" href = "index.html#projects" style = "color: white" >Projects</a>
-          <a class = "navLink" href = "index.html#work" style = "color: white">Work</a>
-          <a class = "navLink" href = "index.html#about" style = "color: white">About</a>
-          <a class = "navLink" href = "index.html#resume" style = "color: white">Resume</a>
+          <a class = "navLink" href = "index.html#contactContainer">Contact</a>
+          <a class = "navLink" href = "index.html#resumeContainer">Resume</a>
+          <a class = "navLink" href = "index.html#aboutContainer">About</a>
+          <a class = "navLink" href = "index.html#projects">Work</a>
         </div>
         </div>
       </div>
@@ -56,10 +56,10 @@
         </div>
         <div class = "col-8 navLinks"> 
           <div style = "float: right;">
-          <a class = "navLink" href = "index.html#projects" style = "color: white">Projects</a>
-          <a class = "navLink" href = "index.html#work" style = "color: white">Work</a>
-          <a class = "navLink" href = "index.html#about" style = "color: white">About</a>
-          <a class = "navLink" href = "index.html#resume" style = "color: white">Resume</a>
+          <a class = "navLink" href = "index.html#contactContainer" style = "color: white">Contact</a>
+          <a class = "navLink" href = "index.html#resumeContainer" style = "color: white">Resume</a>
+          <a class = "navLink" href = "index.html#aboutContainer" style = "color: white">About</a>
+          <a class = "navLink" href = "index.html#projects" style = "color: white">Work</a>
         </div>
         </div>
       </div>
@@ -126,24 +126,32 @@
           <div class = "pageSectionTitle">
             User Workflow
           </div>
-            The current workflow has the student going to each part of the assignment on a new page. They then have to press an exit button to re enter the next part of the assignment. To submit the assignment, the student has to scroll all the way back to the top of the “full assignment” screen and press the turn in button. <br><br>The first solution that we came up with was changing the flow so that students do not need to exit assignment viewer to look at a different part of the assignment.
-  
+            The current workflow has the student going to each part of the assignment on a new page. Below is an outline of the general user workflow for completing and turning in an assignment, as well as wires to what the UI used to look like.  
 
           </div>
         </div>
     </div>
-    <div class = "row pt-5">
-        <div class = "col">
-          <img src = "images/currentassignmentflow.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;">
-        </div>
-      </div>
+ 
+      <div class = "row pt-5"><div class = "col"><img src = "images/realize/Current workflow.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;"></div></div>
+
+      <div class = "row pt-5"><div class = "col"><img src = "images/currentassignmentflow.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;"></div></div>
+
       <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>Wireframes of the current assignment viewer</i></div></div></div>
+   
+
       <div class = "row pt-5">
         <div class = "col">
-          <img src = "images/SLVWorkflow1.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;">
+          <div class = "textWidth mx-auto">
+            There are a few key problems with this current workflow. The constant back and forth between the actual part of the assignment, and the “November 3rd Assignment Page” meant that Alex would often lose track of his progress. Also, the turn in button, being at the top of the page is inconsistent with the user workflow, where the user would finish all parts, and then have to return to the top of the screen. Finally, having to click into an assignment that has a page to a link that has the reading selection is adding unnecessary clicks.
+          </div>
         </div>
       </div>
-      <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>Current and Proposed Workflows</i></div></div></div>
+
+      <div class = "row pt-5">
+        <div class = "col">
+          <img src = "images/realize/Proposed workflow.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;">
+        </div>
+      </div>
 
 
     </div>
@@ -165,7 +173,7 @@
           </div>
         </div>
     </div>
-    <div class = "row pt-3">
+    <div class = "row pt-5">
       <div class = "col">
         <div class = "mx-auto d-block floater" style = "max-width: 600px; padding: 16px;">
           <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">1</div><span>Locate Your English Class</span><br><br>
@@ -176,7 +184,7 @@
       </div>
     </div>
 
-    <div class = "row mx-auto" style = "max-width: 1400px;">
+    <div class = "row pt-5 mx-auto" style = "max-width: 1400px;">
       <div class = "col-lg-6"> <img src = "images/Wireframe1.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div><div class = "col-lg-6"><img src = "images/Wireframe 2.png" class = "needsModal mx-auto d-block pt-5 img-fluid" style = "max-width: 600px; width: 100%;"></div>
     </div>
     <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>Prototype A on the left (Tab Design) Prototype B on the right (Long Scrolling Design)</i></div></div></div>

@@ -28,21 +28,22 @@
 
   <body>
 
-<header id="nav-down">
+  <header id="nav-down">
     <div class = "row projectNav">
-        <div class = "col-4 homeLink"><a style = "color: white" href = "index.html">
+        <div class = "col-4 homeLink"><a href = "index.html">
           Teddy Billings</a>
         </div>
         <div class = "col-8 navLinks"> 
           <div style = "float: right;">
-          <a class = "navLink" href = "index.html#projects" style = "color: white" >Projects</a>
-          <a class = "navLink" href = "index.html#work" style = "color: white">Work</a>
-          <a class = "navLink" href = "index.html#about" style = "color: white">About</a>
-          <a class = "navLink" href = "index.html#resume" style = "color: white">Resume</a>
+          <a class = "navLink" href = "index.html#contactContainer">Contact</a>
+          <a class = "navLink" href = "index.html#resumeContainer">Resume</a>
+          <a class = "navLink" href = "index.html#aboutContainer">About</a>
+          <a class = "navLink" href = "index.html#projects">Work</a>
         </div>
         </div>
       </div>
   </header>
+
 
   <!-- Top with Slanted Box -->
   <div id = "header__bg"> </div>
@@ -55,10 +56,10 @@
         </div>
         <div class = "col-8 navLinks"> 
           <div style = "float: right;">
-          <a class = "navLink" style = "color: white" href = "index.html#projects">Projects</a>
-          <a class = "navLink" style = "color: white" href = "index.html#work">Work</a>
-          <a class = "navLink" style = "color: white" href = "index.html#about">About</a>
-          <a class = "navLink" style = "color: white" href = "index.html#resume">Resume</a>
+          <a class = "navLink" href = "index.html#contactContainer" style = "color: white">Contact</a>
+          <a class = "navLink" href = "index.html#resumeContainer" style = "color: white">Resume</a>
+          <a class = "navLink" href = "index.html#aboutContainer" style = "color: white">About</a>
+          <a class = "navLink" href = "index.html#projects" style = "color: white">Work</a>
         </div>
         </div>
       </div>
@@ -69,7 +70,7 @@
       </div>
       <div class = "row pt-4">
         <div class = "col justify-content-center">
-          <img src = "images/PIHeaderImage.png" class = "mx-auto img-fluid" style = "max-width: 537px; display:block; box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);">
+          <img src = "images/PIHeaderImage.png" class = "mx-auto img-fluid" style = "max-width: 537px; width: 100%; display:block; box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);">
         </div>
       </div>
     </div>
@@ -335,13 +336,13 @@
               </tr>
               <tr>
                 <th>Percieved Usefuleness</td>
+                <td>4.6/7</td>
                 <td>6.6/7</td>
-                <td>not measured</td>
               </tr>
               <tr>
                 <th>Net Promoter Score</td>
-                <td>3 Promoter <br> 1 Passive <br> 1 Detractor</td>
                 <td>not measured</td>
+                <td>3 Promoter <br> 1 Passive <br> 1 Detractor</td>
               </tr>
             </table>
             <div class = "pt-3">
@@ -376,6 +377,9 @@
           </div>
         </div>
       </div>
+
+      <div class = "row pt-5"><div class = "col"> <div class = "textWidth mx-auto">The study is qualitative, so we cannot extrapolate to the larger population. For our purposes, we found that in general, students gave lower scores overall. Having a lower perceived usefulness means that they don't find the point in using the content.  Teachers responded generally very positively. <br><br> One of the biggest challenges moving forward is making the content more engaging for students while retaining teacher satisfaction. 
+</div></div></div>
 
   </div>
 
@@ -531,6 +535,7 @@
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src = "scripts/scrollingHeader.js"></script>
     <script src="scripts/siema-1.5.1/dist/siema.min.js"></script>
     <script src = "scripts/modal.js"></script>
     <script>
