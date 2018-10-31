@@ -72,3 +72,15 @@ th{
 #nav-down{
   background-color: white;
 }
+.onlySmall{
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .onlySmall{
+      display: block;
+    }
+    .onlyLarge{
+      display: none;
+    }
+}
