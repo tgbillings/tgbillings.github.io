@@ -88,10 +88,10 @@
 
     <div id = "background" style = "width: 100%; position: relative;">
 
-      <div class = "container" id = "projectsContainer">
+      <div class = "container" id = "projectsContainer" style = "position: relative; z-index: 1;">
         <div id = "projects">
           <div class = "row titlesmall">
-            <div class = "col-12">
+            <div class = "col-12 hideme">
               <div class = "sectionHeader"> <div class = "myTitle">My Work</div> </div>
               <div class = "titleDecorator" id = "myWorkTitle"> My Work</div>
             </div>
@@ -99,7 +99,7 @@
           <div class = "row">
             <div class = "col-sm-6 col-md-4">
               <a href = "PI.html">
-              <div class = "projectCard leftCard" data-toggle="modal" data-target="#exampleModalCenter">
+              <div class = "projectCard leftCard hideme" data-toggle="modal" data-target="#exampleModalCenter">
                 <div class = "projectImage">
                   <!--IMG HERE-->
                   <img src = "images/pilogo.png" class = "mx-auto" width = "330px" style = "display: block; margin-top: 50px;">
@@ -111,7 +111,7 @@
             </div>
             <div class = "col-sm-6 col-md-4">
               <a href = "LessonViewer.html">
-              <div class = "projectCard centerCard">
+              <div class = "projectCard centerCard hideme">
                 <div class = "projectImage">
                   <img src = "images/rlzlogo.png" class = "mx-auto" width = "400px" style = "display: block; margin-top: 30px;">
                 </div>
@@ -122,7 +122,7 @@
             </div>
             <div class = "col-sm-6 col-md-4">
               <a href = "AUD.html">
-              <div class = "projectCard rightCard">
+              <div class = "projectCard rightCard hideme">
                 <div class = "projectImage">
                   <img src = "images/checkinlogo.png" class = "mx-auto" width = "140px" style = "display: block; margin-top: 20px;">
                 </div>
@@ -172,7 +172,7 @@
     <div id = "backgroundContainer" style = "width: 100%; position: relative; background-color: #F6F6F6;">
       <div id = "backgroundAbout" style = "width: 100%; background-color: white; transform: skewY(8deg); position: absolute; height: 100%; top: 0px; left: 0;"> </div>
         <div class = "container" id = "aboutContainer">
-        <div class = "row titlesmall">
+        <div class = "row titlesmall hideme">
             <div class = "col-12">
               <div class = "sectionHeader"> <div class = "myTitle">About Me</div> </div>
               <div class = "titleDecorator" id = "aboutTitle">About Me</div>
@@ -187,12 +187,12 @@
 
               I am currently living in NYC and working for Pearson, designing products for K -12 Students and teachers. I graduated Cornell University in the Spring of 2017 with a Bachelors of Science in Human Centered Interactions within the department of Information Science, and a double minor in Communications and Technology and Computer Science.</p>
             </div>
-            <div class = "col-md-4">
+            <div class = "col-md-4 mt-5">
               <div>
-                <img id = "cathead" src = "images/cat/head.png" height = "60px" style = "position: absolute; left: 250px; z-index: 0; top: -4px;">
-                <img id = "paw1" src = "images/cat/paw.png" height = "20px" style = "position: absolute; left: 258px; z-index: 3; top: -2px;">
-                <img id = "paw2" src = "images/cat/paw.png" height = "20px" style = "position: absolute; left: 286px; z-index: 3; top: -2px;">
-                <img class = "img-fluid mt-2 mx-auto" src = "images/me3.jpg" style = "max-width: 350px; display: block; border-radius: 8px; z-index: 1; position: relative;">
+                <img id = "cathead" src = "images/cat/head.png" height = "60px">
+                <img id = "paw1" src = "images/cat/paw.png" height = "20px">
+                <img id = "paw2" src = "images/cat/paw.png" height = "20px">
+                <img class = "img-fluid mt-2 mx-auto" src = "images/me3.jpg" style = "max-width: 350px; width: 100%; display: block; border-radius: 8px; z-index: 1; position: relative;">
               </div>
             </div>
         </div>
@@ -202,75 +202,58 @@
     <div style = "width: 100%; position: relative; ">
       <div class = "container" id = "resumeContainer">
         <div class = "row pt-4 titlesmall" style = "z-index: 1;">
-          <div class = "col-12">
+          <div class = "col-sm-9">
               <div class = "sectionHeader"> <div class = "myTitle">My Resume</div> </div>
               <div class = "titleDecorator" id = "resumeTitle">My Resume</div>
-              <div class = "button2">Download</div>
+            </div>
+            <div class = "col-sm-3">
+              <a href = "Resume1.pdf" download><div class = "button2 mt-5">Download</div></a>
             </div>
         </div>
         <div class = "row pt-5">
-          <div class = "col-lg-3"></div>
-          <div class = "col-lg-9 text-uppercase" style = "color: #7142f4; font-size: 20px;">
+          <div class = "col-md-2"></div>
+          <div class = "col-md-10 text-uppercase" style = "color: #7142f4; font-size: 20px;">
             Education
           </div>
         </div>
-        <div class = "row pt-3 resumeRow">
-          <div class = "col-lg-3 resumeLeft">
-            Ithaca, New York <br> Fall 2013 - Spring 2017
-          </div>
-          <div class = "col-lg-9">
-            <div class = "resumeHeader">Cornell University - BS Human Centered Interaction</div>
-              <div class = "resumeContent">
-            Minor in Communication and Technology and Computer Science<br>
-            Relevent Courses: Human Computer Interaction, Human Computer Interaction Studio, Designing for Social Impact, Communcations and Technology, Object Oriented Programming, Data Driven Web Applications, Artifical Intelligence (+Practium), Web Design and Development
-          </div>
+
+        <div class = "row resumeHeader pt-3"> <div class = "col-md-2"></div><div class = "col-md-10">Cornell University</div></div>
+        <div class = "row">
+          <div class = "col-md-2 resumeLeft">2013 - 2017</div>
+          <div class = "col-md-10">
+            <div class = "resumeContent">Relevant Courses: Human Computer Interaction (+ Advanced Studio), Designing Technology for Social Impact, Communications and Technology, Web Design and Development, Intro to Game Design, Visual Communication </div>
           </div>
         </div>
         <div class = "row pt-5">
-          <div class = "col-lg-3"></div>
-          <div class = "col-lg-9 text-uppercase" style = "color: #7142f4; font-size: 20px;">
+          <div class = "col-md-2"></div>
+          <div class = "col-md-10 text-uppercase" style = "color: #7142f4; font-size: 20px;">
             Work Experience
           </div>
         </div>
-         <div class = "row pt-3 resumeRow">
-          <div class = "col-3 resumeLeft">
-            Hoboken, New Jersey <br> Summer 2017 - Current
-          </div>
-          <div class = "col-9">
-            <div class = "resumeHeader">Pearson Learning Services</div>
-              <div class = "resumeContent">
-                Associate User Experience Designer<br>
-            Lead UX Designer on Project Imagine, an Immersive WWII History Product.<br>
-            Lead Designer for Realize, Pearson's Learning Management System <br>
-            Lead the effort for Lean UX Process at Pearson
-          </div>
+
+        <div class = "row resumeHeader pt-3"> <div class = "col-md-2"></div><div class = "col-md-10">Pearson Learning Services, User Experience Designer</div></div>
+        <div class = "row">
+          <div class = "col-md-2 resumeLeft">Summer 2017 - Current</div>
+          <div class = "col-md-10">
+            <div class = "resumeContent">Lead UX Designer on disruptive High School Social Studies product. <br>
+              UX Designer for Realize, Pearson’s Learning Management System. <br> Lead the effort in synthesizing UX Processes with Agile, Print Design, Instructional Planning, and State Reviews. <br> Winner of 2017 Spot Award for work in Project Imagine</div>
           </div>
         </div>
 
-        <div class = "row pt-3 resumeRow">
-          <div class = "col-3 resumeLeft">
-            Waltham, Massachusettes<br> Summer 2016 Internship
-          </div>
-          <div class = "col-9">
-            <div class = "resumeHeader">Rocket Software</div>
-              <div class = "resumeContent">
-                Software Engineer Intern<br>
-            Worked on NLP algorithms for Search Engine for GUI on Mainframe<br>
-            Used AngularJS to help design and develop GUI<br>
-          </div>
+
+        <div class = "row resumeHeader pt-3"> <div class = "col-md-2"></div><div class = "col-md-10">Rocket Software, Software Engineer Intern</div></div>
+        <div class = "row">
+          <div class = "col-md-2 resumeLeft">Summer 2017</div>
+          <div class = "col-md-10">
+            <div class = "resumeContent">Front end engineer for IBM’s mainframe visual display, using AngularJS.<br> Assisted in creating a better Natural Language Help and Search System.</div>
           </div>
         </div>
 
-        <div class = "row pt-3 resumeRow">
-          <div class = "col-3 resumeLeft">
-            Boston, Massachusettes<br> Spring 2015 - Summer 2016
-          </div>
-          <div class = "col-9">
-            <div class = "resumeHeader">Just 4 You Travels</div>
-              <div class = "resumeContent">
-                Web Designer and Developer <br>
-                Designed and Developed a Website for a Travel Agency in the Amalfi coast region of Italy.
-          </div>
+        <div class = "row resumeHeader pt-3"> <div class = "col-md-2"></div><div class = "col-md-10">Just For You - Travels (Freelance)</div></div>
+        <div class = "row">
+          <div class = "col-md-2 resumeLeft">Summer 2016</div>
+          <div class = "col-md-10">
+            <div class = "resumeContent">Created a Website for a client running a travel agency in Amalfi Coast region of Italy.</div>
           </div>
         </div>
 
@@ -278,13 +261,13 @@
 
 
       <div class = "container pt-5" id = "contactContainer">
-        <div class = "row pt-5 titlesmall" style = "z-index: 1;">
+        <div class = "row pt-5 titlesmall hideme" style = "z-index: 1;">
           <div class = "col-12">
               <div class = "sectionHeader"> <div class = "myTitle">Contact Me</div> </div>
               <div class = "titleDecorator" id = "ContactTitle">Contact Me</div>
             </div>
         </div>
-        <div class = "row pt-4"><div class = "col-12 mb-5"><div style = "position: relative;border-radius: 8px; background-color: white; width: 100%; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1); overflow: hidden;">
+        <div class = "row pt-4 hideme"><div class = "col-12 mb-5"><div style = "position: relative;border-radius: 8px; background-color: white; width: 100%; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1); overflow: hidden;">
           <div style = "padding-top: 48px; padding-left: 5%;"> teddy.billings@gmail.com</div>
           <div style = "padding-top: 24px;padding-left: 5%;"> 508-314-4610</div>
           <div style = "padding-top: 24px; padding-left: 5%; padding-bottom: 48px;"> <a href = "github.com/tgb57"> <i class="fa fa-github-alt" style = "padding-right: 16px;"></i> </a> <a href = "https://www.facebook.com/tgbillings"> <i class="fa fa-facebook-official" aria-hidden="true" style = "padding-right: 16px;"></i> </a> <a href = "https://www.linkedin.com/in/theodore-billings-6004b2105/"><i class="fa fa-linkedin-square" aria-hidden="true" style = "padding-right: 16px;"></i> </a> </div>
@@ -310,8 +293,8 @@
     			<img src = "images/003-employee.png" height = "30px" class = "mx-auto" style = "display: block;"></a></div>
     			<div class = "col-3"> <a href = "#resumeContainer"> <div class = "mx-auto" style = "text-align: center;">Resume</div>
     			<img src = "images/002-resume.png" height = "30px" class = "mx-auto" style = "display: block;"> </a></div>
-    			<div class = "col-3"> <div class = "mx-auto" style = "text-align: center;">Contact</div>
-    			<img src = "images/001-email.png" height = "30px" class = "mx-auto" style = "display: block;"></div>
+    			<div class = "col-3"> <a href = "#contactContainer"> <div class = "mx-auto" style = "text-align: center;">Contact</div>
+    			<img src = "images/001-email.png" height = "30px" class = "mx-auto" style = "display: block;"></a></div>
     		</div>
     	</div>
     </div>
@@ -351,6 +334,7 @@
     <script src="scripts/smoothscroll.js"></script>
     <script src="scripts/mousepos.js"></script>
     <script src="scripts/scrollingHeader.js"></script>
+    <script src="scripts/fadein.js"></script>
 
 
   </body>

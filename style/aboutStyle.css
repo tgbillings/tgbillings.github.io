@@ -1,5 +1,4 @@
 .resumeRow{
-
 	padding-bottom: 16px;
 }
 .resumeLeft{
@@ -14,4 +13,36 @@
 .resumeContent{
 	font-size: 18;
 	font-weight: 300;
+}
+#cathead{
+	position: absolute; right: 40px; z-index: 0; top: -4px;
+}
+#paw1{
+	position: absolute; right: 78px; z-index: 3; top: -2px;
+}
+#paw2{
+	position: absolute; right: 45px; z-index: 3; top: -2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .resumeLeft{
+    	text-align: left;
+    }
+    .button2{
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+    }
+    .resumeLeft br{
+    	display: none;
+    }
+    #cathead{
+    	left: 250px;
+    }
+    #paw1{
+    	left: 288px;
+    }
+    #paw2{
+    	left: 255px;
+    }
 }
