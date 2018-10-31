@@ -27,6 +27,7 @@
   </head>
 
   <body>
+    <script>document.body.className += ' fade-out';</script>
 
   <header id="nav-down">
     <div class = "row projectNav">
@@ -146,6 +147,7 @@
       <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #BDD441; margin-top: 54px; margin-bottom: 54px;"></div>
 
 
+      <div class = "container">
       <!-- Product Goals Learning Objectives -->
       <div class = "row">
           <div class = "col">
@@ -164,13 +166,15 @@
         </div>
       </div>
       <div class = "row">
+        <div class = "col">
         <div class = "textWidth mx-auto">
             From the user journey, we defined some of the Product requirements. This product allows students to analyze primary sources and connect them to their own experiences. We want empathy to encourage critical thinking for the students, and to engage them by trying to apply the primary source to something relatable. Empathy is one of the keys in fitting in with the learning objective while still allowing students to be excited about the content. We also needed to make sure that this product was adaptable to the lesson plan of the teachers. 
         </div>
       </div>
+      </div>
 
       <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #BDD441; margin-top: 54px; margin-bottom: 54px;"></div>
-</div>
+  </div>
 
 
 <div class = "container-container" style = "position: relative">
@@ -179,12 +183,14 @@
 
       <!-- Competative Insights -->
       <div class = "row">
+        <div class = "col">
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
             Competitive Insights
           </div>
             There are a ton of products that are similar in nature to what we want to do, but none that are solving the same problem. While looking at competitors products, the two things we were looking for were imersiveness and analysis. While not all of the products we looked at had learning objectives, what we really wanted to incorporate was immersiveness for students to be engaged and thus remember the primary sources. 
           </div>
+        </div>
 
       </div>
     </div>
@@ -395,54 +401,51 @@
           
           <div class = "textWidth mx-auto">
           <div class = "pageSectionTitle">
-            Mid to High Fidelity
+            Imersion, Photographs, and Gamification
           </div>
-            There were many key changes made in the design, but two of the highest impact ones were the breadth of activities offered after reading the primary source, and the switch from illustration to photography. One of the design constraints was making sure that all the photographs were “real” photographs of the time period, and finding the balance between fiction and non-fiction images. <br><br>
-
-            I worked closely with the visual designer and editors to create a hybrid mid/high fidelity prototype that could capture usability issues and to get a full “lesson” into the prototype for a realistic teaching scenario.
+            One feedback from stakeholders is that we want to make sure this product is truly immersive. The key learning objective is teaching students about world war II through empathy. To let them experience this for themselves, we switched the perspectives form how students are interacting with primary sources. Rather than showing them in 3rd person, we switched to first person. <br><br>
             </div>
           </div>
       </div>
-      <div class = "row pt-5">
-        <div class = "col" style = "text-align: center;">
-          <div class = "mx-auto" style = "display: flex; align-items: center; justify-content: center;">
-            <span class="prev"><i class="fas fa-angle-left" style = "color: black; font-size: 40px; display: inline-block; padding: 16px;"></i></span>
-            <div class="siema floater" style = "width: 700px; display: inline-block;">
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss1.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss2.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss3.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss4.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss5.png"></div>
-                <div class = "PIMid d-flex align-items-center"><img style = "display: inline-block;" class = "my-auto needsModal" src="images/ss6.png"></div>
-              </div>
-              <span class="next" style = "display: inline-block; height: 100%;"><i class="fas fa-angle-right" style = "color: black; font-size: 40px; padding: 16px;"></i></span>
-          </div>
-      </div>
-      </div>
-      <div class = "row">
-        <div class = "col py-3 mx-auto" style = " max-width: 700px; font-size: 14px; color: grey;">
-          <b> Mid Fidelity Prototype </b> Made in Sketch, Axure. Presented in Powerpoint.
-        </div>
-      </div>
+
+      <div class = "row"><div class = "col"> <img src = "images/pi/perspectiveshift.png" class = "img-fluid d-block mx-auto needsModal"></div></div>
 
       <div class = "row pt-5">
-        <div class = "col" style = "text-align: center;">
-          <div class = "mx-auto" style = "display: flex; align-items: center; justify-content: center;">
-            <span class="prev2"><i class="fas fa-angle-left" style = "color: black; font-size: 40px; padding: 16px; display: inline-block;"></i></span>
-            <div class="siema2 floater" style = "width: 800px; display: inline-block;">
-                <div><img src="images/hf1.png"></div>
-                <div><img src="images/hf2.png"></div>
-                <div><img src="images/hf3.png"></div>
-              </div>
-              <span class="next2" style = "display: inline-block; height: 100%;"><i class="fas fa-angle-right" style = "color: black; font-size: 40px; padding: 16px;"></i></span>
+        <div class = "col">
+          
+          <div class = "textWidth mx-auto">
+            Another way to Ramp up the immersion is to add gamification elements. This was particularly useful in the Decision tree. We wanted to add a meaningful choice for the students. The current implementation meant that there were no wrong answers for students. In the test, we found that students often were quick to realize this, and started to just click without paying attention to the content. A guided exploration approach means that we push them towards the correct answers, but allow them to fail and learn from their mistakes. To make the mistakes punishing (but not too punishing) we made the user hit a wall and read a passage when they pick a clearly incorrect choice. Finally, we wanted a sense of progression, so we added animation progress indicators. 
+
+            </div>
           </div>
       </div>
+
+      <div class = "row"><div class = "col"> <video class = "pt-5 d-block mx-auto" width="500" style = "max-width: 100%;" autoplay loop muted><source src="images/pi/dt.mp4" type="video/mp4">Your browser does not support HTML5 video.</video></div></div>
+
+      <div class = "row pt-5">
+        <div class = "col">
+          <div class = "textWidth mx-auto">
+            Due to the feedback from teachers and students, we needed to provide a wider breadth of activities for students to complete after finishing their primary source. To do this, we ideated and came up with a few different solutions, based on different types of content that pearson has previous used that were successful. 
+            </div>
+          </div>
       </div>
-      <div class = "row">
-        <div class = "col py-3 mx-auto" style = " max-width: 700px; font-size: 14px; color: grey;">
-          <b> High Fidelity Prototype </b> Made in Sketch and Photoshop (my main role was support). Only limited shown due to NDA.
-        </div>
+
+      <div class = "row"><div class = "col"> <img src = "images/pi/Activities.png" class = "img-fluid d-block mx-auto needsModal pt-5"></div></div>
+
+
+      <div class = "row pt-5">
+        <div class = "col">
+          <div class = "textWidth mx-auto">
+            Finally, our users were complaining about the lack of sophistication in the illustrations and images. Using photography allowed for more sophistication, but it also meant that we were always immersing students in real events and primary sources. This meant that having real images truly made the experience close to what these people during world war II would have actually seen. The limitation is that we cannot animate photographs, and there are also heavy copyright issues around editing for these photographs. 
+            </div>
+          </div>
       </div>
+
+      <div class = "row"><div class = "col"> <img src = "images/pi/illustophoto.png" class = "img-fluid d-block mx-auto needsModal"></div></div>
+
+
+
+
   </div>
 </div>
 
@@ -585,6 +588,10 @@
         document.querySelector('.next3').addEventListener('click', () => Siema3.next());
 
       </script>
+
+      <script>$(function() {
+        $('body').removeClass('fade-out');
+        });</script>
 
    
 

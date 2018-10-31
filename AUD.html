@@ -27,6 +27,7 @@
   </head>
 
   <body>
+    <script>document.body.className += ' fade-out';</script>
 
   <header id="nav-down">
     <div class = "row projectNav">
@@ -315,6 +316,9 @@
     <script src="scripts/siema-1.5.1/dist/siema.min.js"></script>
     <script src = "scripts/modal.js"></script>
     <script src = "scripts/scrollingHeader.js"></script>
+    <script>$(function() {
+        $('body').removeClass('fade-out');
+        });</script>
   
 
    

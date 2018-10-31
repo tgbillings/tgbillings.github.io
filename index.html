@@ -32,6 +32,8 @@
 
   <body>
 
+  	<script>document.body.className += ' fade-out';</script>
+
     <header id="nav-down">
     <div class = "row projectNav">
         <div class = "col-4 homeLink"><a href = "index.html">
@@ -335,6 +337,11 @@
     <script src="scripts/mousepos.js"></script>
     <script src="scripts/scrollingHeader.js"></script>
     <script src="scripts/fadein.js"></script>
+    <script>$(function() {
+    	$('body').removeClass('fade-out');
+		});</script>
+
+
 
 
   </body>
