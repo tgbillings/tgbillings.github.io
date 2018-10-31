@@ -35,7 +35,7 @@ a:hover{
 }
 .button2{
     height: 40px; padding-left: 16px; font-size: 18px; font-weight: 500; padding-right: 16px; color: #7142f4; background-color: white; text-align: center; line-height: 42px; border-radius: 4px; border: 1px #dddddd solid;
-    transition: all .2s ease-in-out; width: 150px;
+    transition: all .2s ease-in-out; width: 150px; margin-top: 42px;
 }
 .button2:hover{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
@@ -218,6 +218,9 @@ a:hover{
     	display: block;
     	z-index: 999;
     }
+    .navLinks{
+        display: none;
+    }
     .myTitle::after{
         display: none;
     }
@@ -230,5 +233,7 @@ a:hover{
     #nav-down{
         display: none;
     }
+    .button2{margin-top: 0px;}
+    
 }
 
