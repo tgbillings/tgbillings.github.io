@@ -87,14 +87,6 @@ a:hover{
 }
 .titleDecorator{font-size: 96px; letter-spacing: 2px; opacity: .04; position: absolute; top: -50px; left: 0;}
 
-.myTitle::after{
-    content: "";
-    position: absolute;
-    width: 60px;
-    bottom: 0;
-    right: 0;
-    border-bottom: 6px solid #7142f4;
-}
 
 .projectNav{
     padding: 20px;
