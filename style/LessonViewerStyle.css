@@ -40,10 +40,10 @@ body{
     background-color: white;
 }
 
-i{
-  opacity: .5;
-}
 
 #nav-down{
   background-color: white;
+}
+.numberItem{
+  display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;
 }

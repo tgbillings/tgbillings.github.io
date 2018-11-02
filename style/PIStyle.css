@@ -75,20 +75,7 @@ th{
 .onlySmall{
   display: none;
 }
-.carousel-control-prev{
-  color: white; 
-  font-size: 40px; 
-  padding: 16px; 
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
-  opacity: .8;
-}
-.carousel-control-next{
-  color: white; 
-  font-size: 40px; 
-  padding: 16px; 
-  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
-  opacity: .8;
-}
+
 @media only screen and (max-width: 576px) {
     .onlySmall{
       display: block;

@@ -52,7 +52,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
         triggerElement: "#aboutContainer",
         triggerHook: ".3",
-        duration: "50px"    // the scene should last for a scroll distance of 100px
+        duration: "200px"    // the scene should last for a scroll distance of 100px
     })
     .setTween("#cathead", {y: "-40", ease:Linear.easeNone}) // pins the element for the the scene's duration
     .addTo(controller); // assign the scene to the controller

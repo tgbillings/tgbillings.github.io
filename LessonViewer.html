@@ -109,9 +109,20 @@
             Background Research
           </div>
             Based on Quantitative Research from Google Analytics, <b>only 6% of our Students turn in their assignments</b>. Additionally, we lost out on a large adoption sale because <b>realize was “not a robust process for the student.”</b> The current problem is that the student turn-in workflow in realize is very complicated. Students often miss parts of their assignment, students can easily submit an incomplete assignment, and submitting an assignment can often be hidden so students miss submission entirely. <br><br> <b>Students need an easy way to work through, and turn in their assignments on Realize. </b>
+            <br><br> From this backround research, the team decided on 3 success measurements:
 
           </div>
         </div>
+    </div>
+
+    <div class = "row pt-3">
+      <div class = "col">
+        <div class = "mx-auto d-block floater" style = "max-width: 600px; padding: 16px;">
+          <div class = "numberItem">1</div><span>Delivered a clear competitive advantage over our competition</span><br><br>
+          <div class = "numberItem">2</div><span>Supported a more positive sales demo or pilot experience.</span><br><br>
+          <div class = "numberItem">3</div><span>Helped support closing of curriculum adoption sales.</span>
+        </div>
+      </div>
     </div>
 
     <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 54px;"></div>
@@ -143,7 +154,32 @@
       <div class = "row pt-5">
         <div class = "col">
           <div class = "textWidth mx-auto">
-            There are a few key problems with this current workflow. The constant back and forth between the actual part of the assignment, and the “November 3rd Assignment Page” meant that Alex would often lose track of his progress. Also, the turn in button, being at the top of the page is inconsistent with the user workflow, where the user would finish all parts, and then have to return to the top of the screen. Finally, having to click into an assignment that has a page to a link that has the reading selection is adding unnecessary clicks.
+            There are a few key problems with this current workflow. The constant back and forth between the actual part of the assignment, and the “November 3rd Assignment Page” meant that Alex would often lose track of his progress. Also, the turn in button, being at the top of the page is inconsistent with the user workflow, where the user would finish all parts, and then have to return to the top of the screen. Finally, having to click into an assignment that has a page to a link that has the reading selection is adding unnecessary clicks. <br><br>
+            From the current designs, I worked with the Project Manager, Product Manager, different content teams, and my manager to create some requirements:
+          </div>
+        </div>
+      </div>
+
+      <div class = "row pt-4">
+      <div class = "col">
+        <div class = "mx-auto d-block floater" style = "max-width: 600px; padding: 16px;">
+          <div class = "numberItem">1</div><span>As a student, I can view all parts of my assignment in “assignment mode”</span><br><br>
+          <div class = "numberItem">2</div><span>As a student, I want a structured path through my assigned work.</span><br><br>
+          <div class = "numberItem">3</div><span>As a student, I know the status of each asset in my assignment</span><br><br>
+          <div class = "numberItem">4</div><span>As a student I can turn in my assignment easily</span><br><br>
+          <div class = "numberItem">5</div><span>As a student I can see a similar screen when accessing single item</span><br><br>
+          <div class = "numberItem">6</div><span>As a student, I can view my assignment on a mobile device
+          </span><br><br>
+          <div class = "numberItem">7</div><span>As a content author, I can create content that is varied
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class = "row pt-5">
+        <div class = "col">
+          <div class = "textWidth mx-auto">
+            In the proposed workflow, I reduced the number of times you have to jump back and forth between the assignment details page (Nov 3rd Assignment Page) and the actual parts of the assignment. Alex no longer has to click on a link to open up a reading selection, and Alex and turn in his assignment when he is done with it, without having to leave the screen. 
           </div>
         </div>
       </div>
@@ -161,6 +197,52 @@
   </div>
 
   <div class = "container-fluid">
+      <div class = "row">
+        <div class = "col">
+          <div class = "textWidth mx-auto">
+          <div class = "pageSectionTitle">
+            Competitive Analysis
+          </div>
+            One of the goals is to have an advantage over our competitors. We looked at what our competitors were doing and how we could improve upon them. Mainly, our competitors do not have a feature to allow students to traverse multiple parts of the assignment. <br><br>McGraw Hill (our #1 competitor) has multiple parts to the assignment, but they are not customizable. Each part of the assignment has a forced structure. In other words, the content has stricter limitations. Our solution needs to be more scalable. We liked the simplicty of their text and icons<br><br>HMH (#2 competitor) does not have a robust assignment viewer. Students must enter and exit the assignment, and the teacher can only assign 1 content item per assignment. Their approach is similar to what Pearson has currently. <br><br>We also looked at Google material design for Tab UI patterns. We liked the simplicity and the easy of use. We also noted that many of our target users use Google Classroom and other google products, so they may be familiar with this pattern already. However, Google’s design does not account for long titles like ours. 
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container pt-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
+    <div class="carousel-inner" style = "background-color: white; border-radius: 8px; overflow: hidden; box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);">
+      <div class="carousel-item active">
+        <div class = "row"> <div class = "col"><img src = "images/Realize/McGraw.png" style = "width: 100%;"></div></div>
+        <div class = "row py-3"><div class = "col" style = "text-align: center;">McGraw Hill - Only 1 word assignment parts. Not scalable</div></div>
+      </div>
+      <div class="carousel-item">
+        <div class = "row"> <div class = "col"><img src = "images/Realize/HMH.png" style = "width: 100%;"></div></div>
+        <div class = "row py-3"><div class = "col" style = "text-align: center;"> HMH Does not support multi-part custom assignments</div></div>
+      </div>
+      <div class="carousel-item">
+        <div class = "row"> <div class = "col"><img src = "images/Realize/Google.png" style = "width: 100%;"></div></div>
+        <div class = "row py-3"><div class = "col" style = "text-align: center;"> Google's Minimalist approach is well known with our users</div></div>
+      </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <i class="fas fa-angle-left"></i>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <i class="fas fa-angle-right"></i>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+  <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 54px;"></div>
+
+  <div class = "container-container" style = "position: relative;">
+    <div class = "container-background" style = "z-index: -10; position: absolute; display: inline-block; height: 100%; background-color: #F6F6F6; width: 100%; transform: skewY(8deg);"></div>
+  <div class = "container-fluid">
 
       <div class = "row">
         <div class = "col">
@@ -177,10 +259,10 @@
     <div class = "row pt-5">
       <div class = "col">
         <div class = "mx-auto d-block floater" style = "max-width: 600px; padding: 16px;">
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">1</div><span>Locate Your English Class</span><br><br>
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">2</div><span>Navigate Through Your Assignment</span><br><br>
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">3</div><span>Finish your Assignment and Submit it to your teacher for a grade</span><br><br>
-          <div style = "display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;">4</div><span>Read the Teacher Comments on the Assignment</span>
+          <div class = "numberItem">1</div><span>Locate Your English Class</span><br><br>
+          <div class = "numberItem">2</div><span>Navigate Through Your Assignment</span><br><br>
+          <div class = "numberItem">3</div><span>Finish your Assignment and Submit it to your teacher for a grade</span><br><br>
+          <div class = "numberItem">4</div><span>Read the Teacher Comments on the Assignment</span>
         </div>
       </div>
     </div>
@@ -205,11 +287,30 @@
     </div>
 
     <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 54px;"></div>
+  </div>
+</div>
 
+    <div class = "container-fluid">
+      <div class = "row">
+        <div class = "col">
+          <div class = "textWidth mx-auto">
+          <div class = "pageSectionTitle">
+            Key Insights
+          </div>
+            The original designs of the lesson viewer had a fixed navigation bar. We needed to support varying types of content, so the lesson viewer may have alot of scrolling. To test this, we asked the team to provide samples of different assignments. The most common device that this is used on is a chromebook, so we wanted to design for 1024 by 768. With 768 height, around 20 out of 56 samples required scrolling in the assignment viewer. The problem with the fixed header is that it covers a lot of the content. We came up with 3 different solutions to deal with this: (1) Design a fixed header and make the content shorter; (2) Design an inline header, so that the user can focus on the content; (3) Design a header that is inline, but appears when the user is done with that part of the assignment or on scroll up.
+ 
+          </div>
+        </div>
+    </div>
+
+        <div class = "row pt-5 mx-auto" style = "max-width: 1400px;"> <div class = "col-lg-4" style = "text-align: center;"> <img src = "images/Realize/fixedhead2.gif" class = "img-fluid needsModal mx-auto d-block py-3" style = "max-width: 400px; width: 100%; height: 220px;"> Fixed Header on Scroll</div><div class = "col-lg-4" style = "text-align: center;"> <img src = "images/Realize/inlinehead2.gif" class = "img-fluid needsModal mx-auto d-block py-3" style = "max-width: 400px; width: 100%; height: 220px;" > Inline Header</div><div class = "col-lg-4" style = "text-align: center;"> <img src = "images/Realize/scrollhead4.gif" class = "needsModal img-fluid mx-auto d-block py-3" style = "max-width: 400px; width: 100%; height: 220px;"> Header Appears on Scroll Up</div> 
+          </div>
   </div>
 
+  <div class = "sectionend mx-auto d-block" style = "width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 54px;"></div>
 
-    <div class = "container-container" style = "position: relative;">
+
+  <div class = "container-container" style = "position: relative;">
     <div class = "container-background" style = "z-index: -10; position: absolute; display: inline-block; height: 100%; background-color: #F6F6F6; width: 100%; transform: skewY(8deg);"></div>
     <div class = "container-fluid">
         <div class = "row">
@@ -226,6 +327,14 @@
       </div>
       <div class = "row pt-1"><div class = "col d-flex justify-content-center"><div class = "mx-auto"><i>3 different visual explorations of Student viewer tabs. The White background with blue tabs (left) was what we ended up choosing.</i></div></div></div>
 
+      <div class = "row"><div class = "col textWidth mx-auto pt-5">I needed to make sure students were able to access their assignment on a mobile device. The overwhelming majority of our users access Realize using a laptop. This means that while the designs are not mobile first, we still need to consider this use case. The mobile designs are more simple, and have more information that users might not care about hidden in a menu, such as due-date and other parts of the assignment. We want to make sure that Alex can complete his assignment at any time. </div></div>
+
+      <div class = "row pt-5">
+        <div class = "col">
+          <img src = "images/Realize/iosflow.png" class = "mx-auto img-fluid d-block needsModal" style = "max-width: 700px; height: auto; width: 100%;">
+        </div>
+      </div>
+
 
     </div>
 
@@ -234,7 +343,6 @@
 
 
   <div class = "container-fluid">
-
       <div class = "row">
         <div class = "col">
           <div class = "textWidth mx-auto">
@@ -242,16 +350,14 @@
             Final Product & Next steps
           </div>
             The final product consisted of many different states. Shown below are only a few of these states, but the Assignment viewer is live in Realize today. Currently, Google analytics shows that the turn in rate is around 68%, which is far better than the previous designs. The next step is to validate even further to see how well we solved the problem. Also, there are going to be more features released in relation to the lesson viewer, including Rubrics functionality, teacher-student commenting, and attaching files. These designs were created to be scalable in nature, and the next step is figuring out how the future features of the Assignment viewer will inform the next iteration of design. 
-
-
           </div>
         </div>
-    </div>
-    <div class = "row pt-5">
-      <div class = "col">
-        <img class = "mx-auto d-block needsModal" src = "images/AVFinal.png" style = "width: 100%; max-width: 700px">
       </div>
-    </div>
+      <div class = "row pt-5">
+        <div class = "col">
+          <img class = "mx-auto d-block needsModal" src = "images/AVFinal.png" style = "width: 100%; max-width: 700px">
+        </div>
+      </div>
 
   </div>
 
@@ -320,7 +426,6 @@
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="scripts/siema-1.5.1/dist/siema.min.js"></script>
     <script src = "scripts/modal.js"></script>
     <script src = "scripts/scrollingHeader.js"></script>
     <script>$(function() {
