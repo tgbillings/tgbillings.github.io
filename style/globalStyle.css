@@ -82,11 +82,9 @@ a:hover{
 .sectionHeader{
     display: inline-block;
     position: relative;
-    font-size: 36px; 
-    padding-top: 36px;
+    font-size: 40px; 
+    padding-top: 20px;
 }
-.titleDecorator{font-size: 96px; letter-spacing: 2px; opacity: .04; position: absolute; top: -50px; left: 0;}
-
 
 .projectNav{
     padding: 20px;
@@ -147,7 +145,7 @@ a:hover{
 
 
 .pageSectionTitle{
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 900;
     padding-bottom: 16px;
     padding-top: 16px;
@@ -175,23 +173,25 @@ a:hover{
     box-shadow: 0px 3px 10px rgba(0, 20, 40, 0.2);
     overflow:hidden;
     background-color: white;
-    height: 400px; 
-    width: 280px; 
+    height: 380px; 
+    width: 100%; 
     border-radius: 8px;
     margin-top: 20px;
     transition: box-shadow .2s ease-in-out;
     margin-bottom: 30px;
+    position: relative
 }
 .projectCard:hover{
     box-shadow: 0px 20px 36px rgba(0, 20, 20, 0.25);
+    color: black;
 }
 .cardTitle{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300;
     margin-top: 4px;
 }
 .cardsubTitle{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 700;
     color: #7142f4;
     margin-top: 22px;
@@ -231,7 +231,7 @@ a:hover{
     .myTitle::after{
         display: none;
     }
-    .titleDecorator{
+    .titlexx{
         display: none;
     }
     .sectionHeader{

@@ -24,6 +24,14 @@
 	position: absolute; right: 45px; z-index: 3; top: -2px;
 }
 
+.slantDecorator{
+    background-color: #7142f4; height: 100%; width: 70%; position: absolute; right: -90px; top: 0; transform: skew(-30deg);
+}
+
+.cardText{
+    font-weight: 300;
+}
+
 @media only screen and (max-width: 768px) {
     .resumeLeft{
     	text-align: left;
@@ -45,4 +53,11 @@
     #paw2{
     	left: 255px;
     }
+    .slantDecorator{
+        display: none;
+    }
+    .cardText{
+        display: none;
+    }
+
 }

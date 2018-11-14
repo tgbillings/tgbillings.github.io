@@ -1,0 +1,52 @@
+#header__bg {
+  position: absolute;
+  top: -100px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  transform: skewY(6deg);
+  transform-origin: top right;
+  overflow: hidden;
+
+}
+
+#header__bg::before {
+    content: "";
+    transform: skewY(-6deg); 
+    -ms-transform: skewY(-6deg); /* IE 9 */
+    -webkit-transform: skewY(-6deg); /* Safari and Chrome */
+    background-image: url('../images/Downstream/DSBG.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    top: 100px;
+
+    /* new styles */
+    position: absolute;
+    transform-origin: top right;
+    width: 100%;
+    height: 100%;
+  }
+
+body{
+  color: #222222;
+  font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+}
+
+b{
+  font-weight: 900;
+}
+
+#nav-down{
+  background-color: white;
+}
+.numberItem{
+  display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;
+}
