@@ -1,4 +1,6 @@
-
+b{
+    color: black;
+}
 body {
     opacity: 1;
     transition: 1s opacity;
@@ -20,7 +22,7 @@ body.fade-out {
 }
 a{
 	text-decoration: none;
-	color: #222222;
+	color: #3c3c3c;
 }
 a:hover{
 	text-decoration: none;
