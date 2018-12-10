@@ -1,3 +1,4 @@
+html{scroll-behavior: smooth;}
 b{
     color: black;
 }
@@ -28,6 +29,22 @@ a:hover{
 	text-decoration: none;
 	color: #7142f4;
 }
+.jumplink{
+    border-radius: 4px;
+    display: inline-block;
+    padding: 16px;
+    transition: all ease-in-out 0.2s;
+    margin-top: 16px;
+    width: 180px;
+    text-align: center;
+    color: #7142f4;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.3);
+}
+.jumplink:hover{
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.5);
+}
+
+
 .button1{
     height: 40px; padding-left: 20px; padding-right: 20px; background-color: #7142f4; position: absolute; top: 50%; right: 0; margin-top: -20px; text-align: center; line-height: 42px; border-radius: 4px; color: white;
     transition: all .2s ease-in-out;
@@ -178,7 +195,6 @@ a:hover{
     height: 380px; 
     width: 100%; 
     border-radius: 8px;
-    margin-top: 20px;
     transition: box-shadow .2s ease-in-out;
     margin-bottom: 30px;
     position: relative

@@ -1,0 +1,35 @@
+#header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url('../images/kids/KCBG.jpg');
+}
+
+.sectionend{
+  width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 120px;
+}
+
+body{
+  color: #222222;
+  font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+}
+
+b{
+  font-weight: 900;
+}
+
+#nav-down{
+  background-color: white;
+}
+.numberItem{
+  display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;
+}
