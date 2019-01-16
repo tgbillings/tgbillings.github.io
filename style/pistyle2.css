@@ -1,0 +1,95 @@
+#header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-image: url("../images/Background/PIBG.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+.containerwidth{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bottomspace{
+  padding-bottom: 100px;
+}
+.topspace{
+  padding-top: 100px;
+}
+body{
+  color: #222222;
+  font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+}
+.sectionend{
+  width: 70px; height: 6px; background-color: #BDD441; margin-top: 54px; margin-bottom: 120px;
+}
+.PIFinalShadow{
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  border-radius: 8px;
+}
+th{
+  text-align: left;
+}
+.PIMid{
+  height: 400px;
+}
+.PIUsability th{
+  text-align: right;
+  padding: 10px;
+  width: 200px;
+}
+.PIUsability td{
+  width: 200px;
+  padding-left: 90px;
+}
+.PIUsability tr{
+}
+.titleRow th{
+  text-align: left;
+  width: 200px;
+  padding-left: 90px;
+}
+.PIKeyFindings td{
+  vertical-align: top;
+}
+.PIKeyFindings th{
+  color: #BDD441;
+  vertical-align: top;
+  padding: 8px;
+  vertical-align: none;
+}
+.PIBackgroundResearch th{
+  color: #BDD441;
+  vertical-align: top;
+  padding: 8px;
+}
+.PIBackgroundResearch td{
+  vertical-align: top;
+}
+
+.carousel-img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+#nav-down{
+  background-color: white;
+}
+.onlySmall{
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .onlySmall{
+      display: block;
+    }
+    .onlyLarge{
+      display: none;
+    }
+}
