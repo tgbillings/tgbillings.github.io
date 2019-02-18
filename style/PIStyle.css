@@ -3,23 +3,40 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 300px;
-  background-image: url("../images/Background/PIBG.jpg");
+  height: 280px;
   background-size: contain;
   background-attachment: fixed;
+  /*background-image: url("../images/Background/PIBG2.jpg");*/
 }
 body{
   color: #222222;
   font-family: 'Josefin Sans', sans-serif;
     background-color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+.mainc{
+  color: #7142f4;
+  opacity: 1;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }
 .sectionend{
-  width: 70px; height: 6px; background-color: #BDD441; margin-top: 54px; margin-bottom: 120px;
+  width: 50px; height: 4px; background-color: #7142f4; margin-top: 48px; margin-bottom: 48px;
 }
 .PIFinalShadow{
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
   margin: 8px;
   border-radius: 8px;
+}
+.quicklink{
+  font-weight: 300;
+  font-size: 14px;
+  color: #7142f4 !important;
+  padding-top: 8px;
+}
+.quicklinktitle{
+  font-size: 14px;
+  font-weight: 700;
 }
 th{
   text-align: left;
@@ -47,13 +64,13 @@ th{
   vertical-align: top;
 }
 .PIKeyFindings th{
-  color: #BDD441;
+  color: #7142f4;
   vertical-align: top;
   padding: 8px;
   vertical-align: none;
 }
 .PIBackgroundResearch th{
-  color: #BDD441;
+  color: #7142f4;
   vertical-align: top;
   padding: 8px;
 }
@@ -72,6 +89,13 @@ th{
 }
 .onlySmall{
   display: none;
+}
+
+.circlenumber{
+  border-radius: 50%; height: 60px; width: 60px; border: 1px solid #a0a0a0; text-align: center; line-height: 60px; font-size: 18px; font-weight: 900; background-color: white; z-index: 9; position: relative;
+}
+.lineconnector{
+  border-right: 1px solid #a0a0a0; height: 120%; width: 30px; z-index: 1; position: absolute; opacity: .5;
 }
 
 @media only screen and (max-width: 576px) {

@@ -10,18 +10,32 @@
   background-attachment: fixed;
   background-position: center;
   overflow: hidden;
-  background-image: url('../images/Background/LVBG.jpg');
-}
-
-.sectionend{
-  width: 70px; height: 6px; background-color: #026ECB; margin-top: 54px; margin-bottom: 120px;
+  /*background-image: url('../images/Background/LVBG.jpg');*/
 }
 
 body{
   color: #222222;
   font-family: 'Josefin Sans', sans-serif;
     background-color: white;
+    font-size: 18px;
+    font-weight: 300;
 }
+
+.sectionend{
+  width: 70px; height: 6px; background-color: #7142f4; margin-top: 54px; margin-bottom: 54px;
+}
+
+.quicklink{
+  font-weight: 300;
+  font-size: 14px;
+  color: #7142f4 !important;
+  padding-top: 8px;
+}
+.quicklinktitle{
+  font-size: 14px;
+  font-weight: 700;
+}
+
 
 b{
   font-weight: 900;
@@ -31,5 +45,5 @@ b{
   background-color: white;
 }
 .numberItem{
-  display: inline-block; color: #026ECB; font-weight: 900; padding-right: 20px;
+  display: inline-block; color: #7142f4; font-weight: 900; padding-right: 20px;
 }
