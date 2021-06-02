@@ -22,13 +22,13 @@ body{
 }
 
 .sectionend{
-  width: 70px; height: 6px; background-color: #7142f4; margin-top: 54px; margin-bottom: 54px;
+  width: 70px; height: 6px; background-color: #0052cc; margin-top: 54px; margin-bottom: 54px;
 }
 
 .quicklink{
   font-weight: 300;
   font-size: 14px;
-  color: #7142f4 !important;
+  color: #0052cc !important;
   padding-top: 8px;
 }
 .quicklinktitle{
@@ -45,5 +45,5 @@ b{
   background-color: white;
 }
 .numberItem{
-  display: inline-block; color: #7142f4; font-weight: 900; padding-right: 20px;
+  display: inline-block; color: #0052cc; font-weight: 900; padding-right: 20px;
 }

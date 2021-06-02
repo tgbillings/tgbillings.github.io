@@ -16,12 +16,12 @@ body{
     font-weight: 300;
 }
 .mainc{
-  color: #7142f4;
+  color: #0052cc;
   opacity: 1;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }
 .sectionend{
-  width: 50px; height: 4px; background-color: #7142f4; margin-top: 48px; margin-bottom: 48px;
+  width: 50px; height: 4px; background-color: #0052cc; margin-top: 48px; margin-bottom: 48px;
 }
 .PIFinalShadow{
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@ body{
 .quicklink{
   font-weight: 300;
   font-size: 14px;
-  color: #7142f4 !important;
+  color: #0052cc !important;
   padding-top: 8px;
 }
 .quicklinktitle{
@@ -64,13 +64,13 @@ th{
   vertical-align: top;
 }
 .PIKeyFindings th{
-  color: #7142f4;
+  color: #0052cc;
   vertical-align: top;
   padding: 8px;
   vertical-align: none;
 }
 .PIBackgroundResearch th{
-  color: #7142f4;
+  color: #0052cc;
   vertical-align: top;
   padding: 8px;
 }

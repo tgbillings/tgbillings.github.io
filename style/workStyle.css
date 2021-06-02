@@ -1,6 +1,7 @@
 body{
 	color: #222222;
 	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
     background-color: #F6F6F6;
 }
 .welcome{
@@ -20,7 +21,7 @@ body{
   	transition: 0.2s;
 }
 .links:hover{
-	color: #7142f4;
+	color: #0052cc;
 	text-decoration: none;
 }
 .links:before{
@@ -31,7 +32,7 @@ body{
   top: 20px;
   bottom: 0;
   left: 0;
-  background-color: #7142f4;
+  background-color: ;
   visibility: hidden;
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;

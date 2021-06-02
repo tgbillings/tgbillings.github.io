@@ -25,7 +25,7 @@
 }
 
 .slantDecorator{
-    background-color: #7142f4; height: 100%; width: 70%; position: absolute; right: -90px; top: 0; transform: skew(-30deg);
+    background-color: #0052cc; height: 100%; width: 70%; position: absolute; right: -90px; top: 0; transform: skew(-30deg);
 }
 
 .cardText{
