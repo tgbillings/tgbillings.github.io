@@ -116,8 +116,7 @@ a:hover{
     padding-right: 10px;
     float: right;
 }
-.navInline{
-}
+
 .carousel-inner{
     text-align: left;
     display: block;
@@ -204,14 +203,12 @@ a:hover{
 }
 .cardTitle{
     font-size: 24px;
-    font-weight: 300;
-    margin-top: 4px;
+    font-weight: 700;
+    color: #0052cc;
 }
 .cardsubTitle{
     font-size: 18px;
-    font-weight: 700;
-    color: #0052cc;
-    margin-top: 22px;
+    font-weight: 300;
 }
 
 .projectImage{
